@@ -1,0 +1,13 @@
+[F3DD35BA-4152E075-C:45]
+Good Name=Legend of Zelda, The - Ocarina of Time (U) (GC Version)
+Internal Name=THE LEGEND OF ZELDA
+Extended Draw Distance Gameshark Code:
+8104894A 3E80
+81048976 3E80
+
+[F034001A-AE47ED06-C:45]
+Good Name=Legend of Zelda, The - Ocarina of Time - Master Quest (U) (GC Version)
+Internal Name=THE LEGEND OF ZELDA
+Extended Draw Distance Gameshark Code:
+8104894A 3E80
+81048976 3E80
