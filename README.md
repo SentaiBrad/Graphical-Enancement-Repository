@@ -8,3 +8,5 @@ Some emulators like PCSX2 and Dolphin have GREAT repositories on their own websi
 This repository would like to change that. When attempting to look for PS1 codes recently I was upset that there was no singular location that held good knowledge, so I made it.
 
 This will be a community effort. If you create or find codes online that will benefit the community, make a pull request and submit the information.
+
+When submitting, if you are not the creator of the codes, please link and credit the creator.
