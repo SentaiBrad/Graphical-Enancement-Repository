@@ -1,0 +1,10 @@
+Widescreen hack by gamemasterplc
+$SAFEMODE
+
+#Toy Story 2 [NTSC-U] (SLUS-00893)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8002CA58 4CCC
+8002CA60 CCCC 

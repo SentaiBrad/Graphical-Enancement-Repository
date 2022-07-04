@@ -1,0 +1,12 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Twisted Metal: Small Brawl [NTSC-U] (SCUS-94642)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+801D2108 0C00
+
+//Eyefinity
+//801D2108 0400

@@ -1,0 +1,44 @@
+Widescreen hack by PsxFan107
+$SAFEMODE
+
+#Medal of Honor: Underground [NTSC-U] (SLUS-01270)
+Comment=This game contains multiple files with executable code. 
+A master code is necessary to prevent issues.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+---------------------------------------------------------------------------------------- 
+//Master Code
+C003B600 0005
+
+//Widescreen 16:9
+8004C3BC BE32
+8004C3BE 0C00
+8004C3C0 0000
+8004C3C2 0000
+8004C3DC BE32
+8004C3DE 0C00
+8004C3E0 0000
+8004C3E2 0000
+3002F8C8 000C
+8002F8CA 2403
+3002F8CC 0018
+3002F8CE 0043
+8002F8D0 1012
+8002F8D4 10C3
+3002F8D6 0002
+3002F8D8 0008
+8002F8DA 03E0
+8008D9DC BE39
+8008D9DE 0800
+3002F8E4 0009
+8002F8E6 240C
+8002F8E8 2900
+3002F8EA 0005
+3002F8EC 001A
+3002F8EE 00AC
+8002F8F0 2812
+8002F8F4 3679
+8002F8F6 0802
+8002F8F8 2180
+3002F8FA 0004
+8008A820 0A00 //Vert stretch For camera aim / sniper scope graphic. (Graphics are only as large as the 4:3 area)

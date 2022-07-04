@@ -1,0 +1,14 @@
+Widescreen hack by VIRGIN KLM
+$SAFEMODE
+
+#Pac-Man World [NTSC-U] (SLUS-00439)
+Comment=The game have the option of widescreen mode, but is too narrow, use that instead.
+Comentario=El juego tiene opción de pantalla panorámica, pero sigue estando ensanchado, usar este.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80150FF0 0C00
+
+//Eyefinity
+//80150FF0 0400

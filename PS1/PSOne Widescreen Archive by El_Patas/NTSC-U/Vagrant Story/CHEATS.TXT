@@ -1,0 +1,27 @@
+Widescreen hack by PsxFan107
+$SAFEMODE
+
+#Vagrant Story [NTS-U] (SLUS-01040)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8007AE6C 0D80 // Widescreen
+800AED50 12F5 // Box Object Fix
+
+----------------------------------------------------------------------------------------
+HEXADECIMAL VALUES  
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+
+File: "BATTLE/BATTLE.PRG"
+Offset / Value / Help:
+------  ------  ----- 
+1266C  800D // Widescreen
+46550  F512 // Box Object Fix
+
+Extract the file of the game, change the values, and insert the file back to the 
+CD image exclusively using the CDMage tool.
+CDMage corrects ECC/ EDC of the image. If patching the image directly by hexeditor, 
+then the data will be different with the information in the EDC / ECC blocks. 
+Otherwise this can cause errors when running any verification of conformity.

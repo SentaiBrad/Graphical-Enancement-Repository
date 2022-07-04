@@ -1,0 +1,12 @@
+Widescreen hack by VIRGIN KLM
+$SAFEMODE
+
+#Twisted Metal 2 [NTSC-U] (SCUS-94306)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8017ECCC 0C00
+
+//Eyefinity
+//8017ECCC 0400

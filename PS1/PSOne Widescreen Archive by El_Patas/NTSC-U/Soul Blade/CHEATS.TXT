@@ -1,0 +1,12 @@
+Widescreen hack by HugoPocked
+$SAFEMODE
+
+#Soul Blade [NTSC-U] (SLUS-00240)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+$80030CB4 0C00
+
+//Small characters with big heads
+//$8002CCCC 0E00 

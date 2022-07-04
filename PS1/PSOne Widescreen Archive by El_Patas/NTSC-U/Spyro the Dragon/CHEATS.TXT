@@ -1,0 +1,32 @@
+Widescreen hack by Gamemasterplc (Gameshark/Action Replay) and Esppiral (Hexadecimal).
+$SAFEMODE
+
+#Spyro the Dragon [NTSC-U] (SCUS-94228)
+Comment=This is an ASM hack. I did manage to thin text but spacing is still wide. 
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8001EDDE 241B
+8001EDDC 0C00
+80033C92 A7BB
+
+----------------------------------------------------------------------------------------
+HEXADECIMAL VALUES  
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+
+Search:
+00000000 0780033C D857638C 00000000 64006010
+Replace:
+000C1B24 0780033C D857638C 00000000 64006010
+
+Search:
+1000B1A7 00004486 165B000C
+Replace:
+1000BBA7 00004486 165B000C
+
+
+
+
+

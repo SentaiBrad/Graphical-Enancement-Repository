@@ -1,0 +1,14 @@
+Widescreen hack by HugoPocked
+$SAFEMODE
+$COMPATIBILITY_0x01
+$COMPATIBILITY_0x04
+
+#Tony Hawk's Pro Skater 4 [NTSC-U] (SLUS-01485)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//POPSTARTER Graphics glitch fix value and address to take WIDESCREEN
+$D00DA240 1000
+$800DA240 0400
+$D00DA244 1999
+$800DA244 0666

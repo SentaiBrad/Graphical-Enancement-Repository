@@ -1,0 +1,13 @@
+Widescreen hack by VIRGIN KLM
+$SAFEMODE
+
+#Persona 2: Eternal Punishment [NTSC-U] (SLUS-01158)
+Comment=The only issues with that are that the 2D sprites of the characters are not being 
+affected and (typically with Persona games), things that you are not supposed to be able 
+to see are being rendered on the sides outside the 4:3 area. Not really a big deal though, 
+but if you go to Eyefinity, those issues get nasty.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8008B3E8 0C00

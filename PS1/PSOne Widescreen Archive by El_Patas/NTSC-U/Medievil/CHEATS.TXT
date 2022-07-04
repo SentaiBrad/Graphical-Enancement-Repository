@@ -1,0 +1,27 @@
+Widescreen hack by El_Patas [España], ported to NTSC-U by ShaolinAssassin (Gameshark).
+$SAFEMODE
+
+#MediEvil [NTSC-U] (SCUS-94227)
+Comment=Not works in the POPS emu for PS2 and in the PSX, freezes in the loading screen.
+Comentario=No funciona en el emulador POPS de PS2 ni en la PSX, se cuelga en la pantalla de carga.
+----------------------------------------------------------------------------------------
+GAMESHARK CODES/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800F88FC 1333
+
+//Eyefinity
+//800F88FC 0666
+
+ALTERNATIVE:
+Widescreen hack by demilich.
+
+#MediEvil [NTSC-U] (SCUS-94227)
+Comment=This is for codes to run properly using a cheat device module on original PS1 console.
+All of the Medieval games get stuck at the startup screen so they require the conditional codes.
+----------------------------------------------------------------------------------------
+GAMESHARK CODES/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+D0AF88FC 1999
+80AF88FC 1333

@@ -1,0 +1,21 @@
+Widescreen hack by gamemasterplc
+$SAFEMODE
+
+#Toy Story Racer [NTSC-U] (SLUS-01214)
+Comment=Fixes Most of GUI and 3D. 
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80033E58 4CCC
+80033E5C CCCD
+8004DC1C 4CCC
+8004DC20 CCCD
+8004DD00 4CCC
+8004DD04 CCCD
+8004DDB4 4CCC
+8004DDBC CCCD
+8004E3AC 4CCC
+8004E3B0 CCCD
+8006D948 4CCC
+8006D950 CCCD

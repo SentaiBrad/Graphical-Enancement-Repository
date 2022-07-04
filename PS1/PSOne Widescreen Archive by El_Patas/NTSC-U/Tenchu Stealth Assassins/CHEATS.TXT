@@ -1,0 +1,12 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Tenchu: Stealth Assassins [NTSC-U] (SLUS-00706) (v1.0 & v1.1)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800C4108 0C00
+
+//Eyefinity
+//800C4108 0400

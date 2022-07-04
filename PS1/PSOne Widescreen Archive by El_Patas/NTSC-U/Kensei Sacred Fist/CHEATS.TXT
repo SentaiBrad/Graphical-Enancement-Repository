@@ -1,0 +1,12 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Kensei: Sacred Fist [NTSC-U] (SLUS-00600)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800C7F40 0C00
+
+//Eyefinity
+//800C7F40 0400

@@ -1,0 +1,34 @@
+Widescreen hack by VIRGIN KLM and Gamemasterplc
+$SAFEMODE
+
+#Klonoa: Door to Phantomile [NTSC-U] (SLUS-00585)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8010A440 0C00 //Background
+800C47EC 0C00 //Heart 1
+800C4808 0C00 //Heart 2
+800C4824 0C00 //Heart 3
+800C47EC 0C00 //PCs and NPCs
+
+//Eyefinity
+//8010A440 0400 //Background
+//800C47EC 0C00 //Heart 1
+//800C4808 0C00 //Heart 2
+//800C4824 0C00 //Heart 3
+//800C47EC 0400 //PCs and NPCs
+
+//Other Widescreen 16:9 by Gamemasterplc
+Comment=Fixes Most Sprites and 3D environment.
+//80019FA0 0C00
+//80019FA2 2402
+//80019490 0C00
+//80019492 2402
+
+
+
+
+
+
+

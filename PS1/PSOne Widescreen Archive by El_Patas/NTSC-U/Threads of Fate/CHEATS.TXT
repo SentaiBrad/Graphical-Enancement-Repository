@@ -1,0 +1,10 @@
+Widescreen hack by Esppiral
+$SAFEMODE
+
+#Threads of Fate [NTSC-U] (SLUS-01019)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800BF4A0 1333 //Background
+8009EE4C 0C00 //Text box fix
