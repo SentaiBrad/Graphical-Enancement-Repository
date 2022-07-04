@@ -1,0 +1,23 @@
+Crimson Tears (U)
+CRC - D31904C2
+
+//No-Interlacing
+patch=1,EE,00166A84,word,30420000
+patch=1,EE,002ae84c,word,00000000 //64420008
+patch=1,EE,0032B280,word,30420000
+
+//Remove Ghosting
+patch=1,EE,E0010001,extended,306C4D58
+patch=1,EE,206C4D58,extended,00000001
+patch=1,EE,E0010001,extended,30E36888
+patch=1,EE,20E36888,extended,00000001
+patch=1,EE,E0010001,extended,30E363A8
+patch=1,EE,20E363A8,extended,00000001
+patch=1,EE,E0010001,extended,30E38B78
+patch=1,EE,20E38B78,extended,00000001
+
+//Remove Ghosting and Bloom (Optional)
+//patch=1,EE,006C4D58,word,00000000
+//patch=1,EE,00E36888,word,00000000
+//patch=1,EE,00E363A8,word,00000000
+//patch=1,EE,00E38B78,word,00000000 

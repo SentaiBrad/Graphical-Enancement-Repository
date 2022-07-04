@@ -1,0 +1,42 @@
+gametitle=Devil may cry (Japan) SLPM_650.38;1) Game CRC = 0x96B2F56D
+comment=Enhacements v2 by Felxithgecat1970
+
+//Widescreen New code (ported from ELF hack)
+patch=1,EE,2010338C,extended,3C013F40
+patch=1,EE,20103390,extended,44810000
+patch=1,EE,20103398,extended,4600C602
+
+//Disable cinematic black bars (02000000)
+patch=1,EE,D0755C33,extended,82
+patch=1,EE,00755C33,extended,02
+
+//No interleacing
+patch=1,EE,D0753EA1,extended,00
+patch=1,EE,0015B2D4,extended,30420000
+patch=1,EE,D0753EA1,extended,01
+patch=1,EE,0015B2D4,extended,30420001
+
+//No hud - blurry upper screen
+patch=1,EE,E002FF67,extended,00753F70
+patch=1,EE,00753F71,extended,00
+patch=1,EE,00753FA9,extended,00
+
+patch=1,EE,E0020219,extended,00753FA2
+patch=1,EE,20753F71,extended,FF
+patch=1,EE,20753FA9,extended,FF
+
+//Quick show Health bar > Rigth Analog Up + R1 (battles only UP) 
+patch=1,EE,E002FF80,extended,00753ED6
+patch=1,EE,20753F71,extended,FF
+patch=1,EE,20753FA9,extended,FF
+
+//Hud Bosses Health bar Keep Rigth Analog Down Untill Fill up
+patch=1,EE,003B8860,extended,24060000
+patch=1,EE,003B88CC,extended,24030000
+patch=1,EE,E0020080,extended,00753ED6
+patch=1,EE,003B8860,extended,24060001
+patch=1,EE,003B88CC,extended,24030001 
+
+//Zoom to 0
+//patch=1,EE,205723C8,extended,00000000 // 3EAAAAAB Default 0.3
+//patch=1,EE,20572428,extended,00000000

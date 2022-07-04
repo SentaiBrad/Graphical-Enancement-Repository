@@ -1,0 +1,5 @@
+gametitle=ATV Offroad Fury 3 (U)(SCUS-97405)
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,004bfa98,word,24020002 //30420003
+

@@ -1,0 +1,5 @@
+gametitle=F1 Racing Championship [SLES 50047] (E)
+comment=patched by Prafull
+//fix hang at loading menu
+patch=1,EE,00258e34,word,00000000
+patch=1,EE,00217484,word,00000000

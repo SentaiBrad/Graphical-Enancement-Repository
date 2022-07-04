@@ -1,0 +1,5 @@
+Bombastic (U) CRC - FB55E35C
+
+//Deinterlacing
+patch=1,EE,001f08f4,word,00000000 //64420008
+patch=1,EE,001f097c,word,00000000 //64420008

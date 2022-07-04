@@ -1,0 +1,5 @@
+gametitle=Aggressive Inline (SLUS-20327) (NTSC)
+//no interlacing
+patch=1,EE,00205de4,word,00000000
+patch=1,EE,00205e6c,word,00000000
+

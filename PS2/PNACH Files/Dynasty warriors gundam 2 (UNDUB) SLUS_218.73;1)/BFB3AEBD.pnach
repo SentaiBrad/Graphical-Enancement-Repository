@@ -1,0 +1,31 @@
+gametitle=Dynasty warriors gundam 2 (UNDUB) SLUS_218.73;1) Game CRC = 0xBFB3AEBD
+comment=Enhacement test
+
+//Widescreen (Widescreen archive)
+patch=1,EE,204D9EB8,extended,3F2AAAAB
+
+//Progressive scan mode
+patch=0,EE,20100ECC,extended,3C060050
+patch=0,EE,20100ED4,extended,3c070001
+patch=0,EE,2010123C,extended,24020002
+patch=0,EE,20101240,extended,24020002
+
+//Null Interleacing, Intns.
+patch=0,EE,201024F8,extended,03E00008
+patch=0,EE,201024FC,extended,00000000
+patch=0,EE,20102760,extended,03E00008
+patch=0,EE,20102764,extended,00000000
+
+//Framebuffer code (menus only)
+patch=1,EE,E00401C0,extended,003B4A30
+patch=1,EE,203C1420,extended,00001040
+patch=1,EE,203C142C,extended,001BF3FF
+patch=1,EE,203C1448,extended,00001040
+patch=1,EE,203C1454,extended,001BF3FF
+
+patch=1,EE,E00400E0,extended,003B4A30
+patch=1,EE,203C1420,extended,00001000
+patch=1,EE,203C142C,extended,000DF3FF
+patch=1,EE,203C1448,extended,00001000
+patch=1,EE,203C1454,extended,000DF3FF
+

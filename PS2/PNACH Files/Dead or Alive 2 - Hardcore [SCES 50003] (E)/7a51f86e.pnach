@@ -1,0 +1,6 @@
+gametitle=DOA2: Hardcore (SCES-50003)
+//Patched by Prafull
+//Some missing sounds
+patch=0,EE,002b4c44,word,24060000
+patch=0,EE,002b4dc0,word,10000014
+

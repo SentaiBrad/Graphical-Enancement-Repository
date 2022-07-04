@@ -1,0 +1,4 @@
+//Search pattern: 3829050008004264 (little endian)
+//Search mask:    ffffffffffffffff
+patch=1,EE,0010f13c,word,00000000 //64420008
+

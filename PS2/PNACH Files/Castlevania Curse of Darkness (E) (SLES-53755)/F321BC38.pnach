@@ -1,0 +1,23 @@
+gametitle=Castlevania: Curse of Darkness (SLES-53755)
+comment=Widescreen hack by nemesis2000 (pnach by nemesis2000)
+
+//gameplay
+patch=1,EE,007526fc,word,3c013f40 //hor value
+patch=1,EE,00752700,word,44810000
+patch=1,EE,00752708,word,4600c602
+
+//item pos-x fix
+patch=1,EE,009d1840,word,c4560000
+
+//FMV's fix
+patch=1,EE,004448d0,word,00000000
+patch=1,EE,00776718,word,24056d80
+patch=1,EE,00776724,word,24072380
+
+//camera x-axis invert
+patch=1,EE,004450e4,word,46000007
+patch=1,EE,004450e8,word,03e00008
+patch=1,EE,004450ec,word,27bd0010
+patch=1,EE,0044bd04,word,14400005 
+patch=1,EE,0044bd0c,word,c6000000
+patch=1,EE,0044bd14,word,e6000000

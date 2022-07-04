@@ -1,0 +1,6 @@
+gametitle=DOA2: Hardcore (SLUS-20071)
+//Patch by Prafull after combining pseudonym's gamefix and benji229's patch
+//skips some sound but game works
+patch=0,EE,002b06ec,word,24060000
+patch=0,EE,002b0868,word,10000014
+

@@ -1,0 +1,35 @@
+Baroque, SLUS-21714
+
+
+// Noise Filter Off
+patch=1,EE,0010fb9c,word,24030000
+
+// Disable Blur Effect
+patch=1,EE,0010ee18,word,24030000 
+
+// No black Borders (ver.3)
+patch=1,EE,00173f98,word,64030001 
+
+//Check If Texture on characters are being rendered (Basically check if you are in the game and not title screen)
+//Check If Player's Data doesn't need to be shown (Basically Check If game is playing Cutscenes)
+//If the conditions above are true active No black Borders + No Background when saving
+//This will Fix everything except the background when saving.
+//No black Borders + No Background when saving
+//patch=1,EE,00103c80,word,8D27000C
+//patch=1,EE,e0020000,extended,10C11AFC
+//patch=1,EE,e0010000,extended,005179C0
+//patch=1,EE,20103c80,extended,24070000
+
+
+//Check If Player's Data doesn't need to be shown (Basically Check If game is playing Cutscenes)
+//Check If game doesn't need to render the environment (Basically check if Backgroung needs to be shown)
+//If the conditions above are true active No black Borders
+//No black Borders
+//patch=1,EE,00103c80,word,8D27000C
+//patch=1,EE,e0020000,extended,005179C0
+//patch=1,EE,e0010000,extended,0051B5AC
+//patch=1,EE,20103c80,extended,24070000 
+
+//Fix Map
+patch=1,EE,e0010001,extended,005179C0
+patch=1,EE,20103c80,extended,8D27000C 

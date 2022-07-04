@@ -1,0 +1,5 @@
+Echo Night - Beyond (U) CRC - 2DE16D21
+
+//Deinterlacing + 60FPS
+//This is the 60FPS code made by asasega so credit to him
+patch=1,EE,0013FFDC,word,10000014

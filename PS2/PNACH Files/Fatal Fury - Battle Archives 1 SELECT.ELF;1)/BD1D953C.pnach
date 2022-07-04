@@ -1,0 +1,6 @@
+gametitle=Fatal Fury - Battle Archives 1 SELECT.ELF;1) Game CRC = 0xBD1D953C
+comment=No interleacing + progressive 240p test 2 - ISO patch use PS2 Patch engine
+
+patch=0,EE,2024494C,extended,3c050000
+patch=0,EE,20244954,extended,3c060050
+patch=0,EE,2024495C,extended,3c070001

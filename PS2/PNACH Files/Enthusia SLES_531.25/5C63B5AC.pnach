@@ -1,0 +1,16 @@
+gametitle=Enthusia SLES_531.25;1) Game CRC = 0x5C63B5AC
+comment=Enhancement test
+
+//Widescreeen (widescreen archive)
+patch=1,EE,0038DCB8,word,3F400000
+
+//Sharp Framebuffer - no interleacing
+patch=1,EE,2038DFE8,extended,00000002
+patch=1,EE,2038DFF0,extended,00009450
+patch=1,EE,2038DFFC,extended,001BF9FF
+
+//Progressive mode 60HZ for Test.
+//patch=1,EE,202EFE9C,extended,3C060050 // Disable - enable this code for activate
+
+patch=1,EE,E0010050,extended,002EFE9C
+patch=1,EE,2038DFF8,extended,01823134

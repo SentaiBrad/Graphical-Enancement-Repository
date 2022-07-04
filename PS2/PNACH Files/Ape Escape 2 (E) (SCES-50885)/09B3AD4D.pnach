@@ -1,0 +1,6 @@
+Ape Escape 2 - SCES-50885 only!
+CRC = 09B3AD4D
+
+//Mipmapping removal patch. Quality improvement subjective.
+//Set Mipmapping to none in settings for best effect.
+patch=1,EE,0034E0E0,word,00000000

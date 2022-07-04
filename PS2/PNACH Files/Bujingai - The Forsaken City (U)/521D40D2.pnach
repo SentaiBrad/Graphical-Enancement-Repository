@@ -1,0 +1,5 @@
+Bujingai - The Forsaken City (NTSC)
+CRC - 521D40D2
+
+//Deinterlacing
+patch=1,EE,00127878,word,30420000 
