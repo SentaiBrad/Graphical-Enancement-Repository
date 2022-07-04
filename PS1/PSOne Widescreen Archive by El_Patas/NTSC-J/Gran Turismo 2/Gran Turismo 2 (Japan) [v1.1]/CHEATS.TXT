@@ -1,0 +1,15 @@
+Widescreen hack by Hugopocked (Ported to this version by El_Patas)
+$SAFEMODE
+
+#Gran Turismo 2 [NTSC-J] [v1.1] (SCPS-10116) & (SCPS-10117)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+D0010000 FFE8
+8007B28C 0156 //Arcade disc menus//
+D0010000 FFD0
+8007B28C 03DE //Simulation disc menus//
+D0010000 FFE0
+8007B28C 01AC //In-game Auto-Activate (Both Discs)//
+8007B28E 3402 //Permantly Activated (Both Discs)//

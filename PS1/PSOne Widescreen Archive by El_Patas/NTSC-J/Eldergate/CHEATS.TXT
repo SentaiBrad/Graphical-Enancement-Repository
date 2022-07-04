@@ -1,0 +1,34 @@
+Widescreen hack by Paul_met
+$SAFEMODE
+
+#Eldergate [NTSC-J] (SLPM-86494)
+Comment=Needs render fix in the left side of the town areas.
+Comentario=Necesita correción renderizado en el lado izquierdo de las ciudades.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8008D5B8 0C00
+
+//Eyefinity
+//8008D5B8 0400
+
+----------------------------------------------------------------------------------------
+HEXADECIMAL VALUES
+----------------------------------------------------------------------------------------
+
+File: "SLPM_864.94"
+Offset / Value
+9D44 000C0224
+
+Extract the executable file of the game (SLUS, SLES, SLPM, etc), change the value,
+and insert the file back to the CD image exclusively using the CDMage tool.
+CDMage corrects ECC/ EDC of the image. If patching the image directly by hexeditor, 
+then the data will be different with the information in the EDC / ECC blocks. 
+Otherwise this can cause errors when running any verification of conformity.
+
+
+
+
+
+

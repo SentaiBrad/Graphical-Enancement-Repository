@@ -1,0 +1,12 @@
+Widescreen hack by Polipoli
+$SAFEMODE
+
+#World Soccer Jikkyou Winning Eleven 4 [NTSC-J] (SLPM-86291)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80072F90 0C00
+
+//Eyefinity
+//80072F90 0400

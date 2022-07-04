@@ -1,0 +1,9 @@
+Widescreen hack by allkhan
+$SAFEMODE
+
+#TV Animation X: Unmei no Tatakai [NTSC-J] (SLPS-03459)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80096238 0C00

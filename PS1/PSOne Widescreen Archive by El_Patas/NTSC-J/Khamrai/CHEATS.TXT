@@ -1,0 +1,30 @@
+Widescreen hack by Paul_met
+$SAFEMODE
+
+#Khamrai [NTSC-J] (SLPS-02640)
+Comment: There is a small render issue on title screen (render limitation).
+Comentario: Hay un pequeño problema de renderizado en la pantalla de título.
+(Limitación de render).
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800E5C28 0C00
+800C1B74 0C00
+
+----------------------------------------------------------------------------------------
+HEXADECIMAL VALUES
+----------------------------------------------------------------------------------------
+
+File: "SLPS_026.40"
+Offset / Value / Help
+9AEB8 000C0224 (Environment fix)
+A254 000C0224 (Characters fix)
+
+Extract the executable file of the game (SLUS, SLES, SLPM, etc), change the value,
+and insert the file back to the CD image exclusively using the CDMage tool.
+CDMage corrects ECC/ EDC of the image. If patching the image directly by hexeditor, 
+then the data will be different with the information in the EDC / ECC blocks. 
+Otherwise this can cause errors when running any verification of conformity.
+
+

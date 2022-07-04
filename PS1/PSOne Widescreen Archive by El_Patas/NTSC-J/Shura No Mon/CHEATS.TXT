@@ -1,0 +1,12 @@
+Widescreen hack by allkhan
+$SAFEMODE
+
+#Shura No Mon [NTSC-J] (SLPS-01202)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80071C44 0C00
+80071BCC 0C00
+80064EE4 0C00 // 80064EE4 0F00
+(Can someone verify? sorry, physically i only have PSP to check the codes). 

@@ -1,0 +1,12 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Bakusou Kyoudai Let's & Go!! Eternal Wings [NTSC-J] (SLPS-01489)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8009EF70 0C00
+
+//Eyefinity
+//8009EF70 0400

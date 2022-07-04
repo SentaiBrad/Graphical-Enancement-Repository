@@ -1,0 +1,9 @@
+Widescreen hack by kane12369
+$SAFEMODE
+
+#Persona 2 Tsumi Innocent Sin (v1.0) [En by Gemini v1.0a] [NTSC-J] (SLPS-02100)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80087A68 0C00

@@ -1,0 +1,10 @@
+Widescreen hack by allkhan
+$SAFEMODE
+
+#Macross Digital Mission VF-X2 [NTSC-J] (SLPS-02237)
+Comment=Unstable, in some missions your vf is deformed.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8008E538 0C00

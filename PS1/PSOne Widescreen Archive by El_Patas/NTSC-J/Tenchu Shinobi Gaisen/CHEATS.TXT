@@ -1,0 +1,14 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Tenchu: Shinobi Gaisen [NTSC-J] (SLPS-01901)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800C6500 0C00 //Gameplay main game
+800D23B0 0C00 //Gameplay of levels created with the level editor
+
+//Eyefinity
+//800C6500 0400 //Gameplay main game
+//800D23B0 0400 //Gameplay of levels created with the level editor

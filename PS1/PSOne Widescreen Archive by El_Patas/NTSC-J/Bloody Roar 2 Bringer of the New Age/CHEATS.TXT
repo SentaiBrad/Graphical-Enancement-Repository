@@ -1,0 +1,9 @@
+Widescreen hack by allkhan
+$SAFEMODE
+
+#Bloody Roar 2: Bringer of the New Age [NTSC-J] (SLPS-01842)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+801EF308 1333

@@ -1,0 +1,20 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Kiganjo [NTSC-J] (SLPS-02370)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80184068 0C00 //Gameplay
+8017FB18 0FF0 //HUD clock
+8017FB98 0FF0 //HUD text 1 
+8017FBD8 0FF0 //HUD text 2
+8017FC18 0FF0 //HUD text 3
+
+//Eyefinity
+//80184068 0400 //Gameplay
+//8017FB18 0770 //HUD clock
+//8017FB98 0770 //HUD text 1
+//8017FBD8 0770 //HUD text 2
+//8017FC18 0770 //HUD text 3 

@@ -1,0 +1,14 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#J's Racin' [NTSC-J] (SLPS-01007)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8007A368 0D0B //1 Player mode
+8007A3E8 08B2 //2 Player mode
+
+//Eyefinity
+//8007A368 0459//1 Player mode
+//8007A3E8 02E6//2 Player mode

@@ -1,0 +1,12 @@
+Widescreen hack by Polipoli
+$SAFEMODE
+
+#J.League Jikkyou Winning Eleven 3 [NTSC-J] (SLPM-86055)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800E6368 0C00
+
+//Eyefinity
+//800E6368 0400

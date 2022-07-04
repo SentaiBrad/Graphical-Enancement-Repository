@@ -1,0 +1,9 @@
+Widescreen hack by allkhan
+$SAFEMODE
+
+#Blue Breaker Burst: Bishou o Anata To [Limited Edition] [NTSC-J] (SLPS-01469)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800DACB0 0C00

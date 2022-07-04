@@ -1,0 +1,14 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Tenchu: Shinobi Hyakusen [NTSC-J] (SLPS-02400)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800E8B38 0C00 //Gameplay
+800908F2 0C00 //Graphic container of life bar
+80090916 0C00 //Life bar
+
+//Eyefinity
+//800E8B38 0400

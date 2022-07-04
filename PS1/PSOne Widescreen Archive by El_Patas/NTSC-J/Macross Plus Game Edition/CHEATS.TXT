@@ -1,0 +1,9 @@
+Widescreen hack by allkhan
+$SAFEMODE
+
+#Macross Plus Game Edition [NTSC-J] (SLPS-02791)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+801FB140 0C00
