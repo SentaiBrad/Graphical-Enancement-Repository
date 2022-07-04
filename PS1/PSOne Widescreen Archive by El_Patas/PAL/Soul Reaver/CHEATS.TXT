@@ -1,0 +1,33 @@
+Widescreen hack by Paul_met (Ported to PAL by darkludx)
+$SAFEMODE
+
+#Soul Reaver [PAL] (SLES-01301)
+Comment: Some textures may disappear.
+Comentario: Algunas texturas pueden desaparecer.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8003A604 0C00
+8003A614 0034
+8003A616 AFA0
+8003A618 1000
+8003A61A 2403
+
+----------------------------------------------------------------------------------------
+HEXADECIMAL VALUES
+----------------------------------------------------------------------------------------
+
+File: "SLES_013.01"
+Offset / Value
+2AE04 000C
+2AE14 3400A0AF
+2AE18 00100324
+
+Extract the executable file of the game (SLUS, SLES, SLPM, etc), change the value,
+and insert the file back to the CD image exclusively using the CDMage tool.
+CDMage corrects ECC/ EDC of the image. If patching the image directly by hexeditor, 
+then the data will be different with the information in the EDC / ECC blocks. 
+Otherwise this can cause errors when running any verification of conformity.
+
+

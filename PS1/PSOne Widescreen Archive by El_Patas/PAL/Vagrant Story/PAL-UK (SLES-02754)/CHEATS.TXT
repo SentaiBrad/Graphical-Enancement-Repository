@@ -1,0 +1,31 @@
+Widescreen hack by El_Patas
+
+#Vagrant Story [PAL-UK] (SLES-02754)
+----------------------------------------------------------------------------------------
+HEXADECIMAL VALUES  
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+
+Search:
+5A00 A2A7 0010 0224 6800 A2A7 0012 0224
+Replace:
+5A00 A2A7 0010 0224 6800 A2A7 800D 0224
+
+//Box Object Fix
+
+Search:
+380E 0224 1E00 A0A7 1C00 A0A7 1A00 A0A7
+Replace:
+F512 0224 1E00 A0A7 1C00 A0A7 1A00 A0A7
+
+File: "BATTLE/BATTLE.PRG"
+Offset / Value / Help:
+------  ------  ----- 
+1266C  800D // Widescreen
+46550  F512 // Box Object Fix
+
+Extract the file of the game, change the values, and insert the file back to the 
+CD image exclusively using the CDMage tool.
+CDMage corrects ECC/ EDC of the image. If patching the image directly by hexeditor, 
+then the data will be different with the information in the EDC / ECC blocks. 
+Otherwise this can cause errors when running any verification of conformity.

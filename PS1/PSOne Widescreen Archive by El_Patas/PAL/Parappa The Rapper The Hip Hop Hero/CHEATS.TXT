@@ -1,0 +1,12 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Parappa The Rapper: The Hip Hop Hero [PAL] (SCES-00743)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80097B30 0C00
+ 
+//Eyefinity
+//80097B30 0400 

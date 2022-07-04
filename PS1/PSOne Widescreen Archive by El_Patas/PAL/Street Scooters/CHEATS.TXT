@@ -1,0 +1,14 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Street Scooters [PAL] (SLES-02528)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80091AFC 0D0B //1 Player modes
+80091B7C 08B2 //2 Players mode
+
+//Eyefinity
+//80091AFC 0459 //1 Player modes
+//80091B7C 02E6 //2 Players mode

@@ -1,0 +1,13 @@
+Widescreen hack by El_Patas [España], ported to PAL [French] by ShaolinAssassin (Gameshark)
+$SAFEMODE
+
+#MediEvil [PAL-France] (SCES-01492)
+Comment=Not works in the POPS emu for PS2 and in the PSX, freezes in the loading screen.
+----------------------------------------------------------------------------------------
+GAMESHARK CODES/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800F8C9C 1333
+
+//Eyefinity
+//800F8C9C 0666

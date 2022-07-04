@@ -1,0 +1,14 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Ms. Pac-Man: Maze Madness [PAL] (SCES-03085) 
+Comment=The game have the option of widescreen mode, but is too narrow, use that instead.
+Comentario=El juego tiene opción de pantalla panorámica, pero sigue estando ensanchado, usar este.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+---------------------------------------------------------------------------------------- 
+//Widescreen 16:9
+801F32C8 0C00
+
+//Eyefinity
+//801F32C8 0400

@@ -1,0 +1,12 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Porsche Challenge [PAL] (SCES-00409)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800C9DA4 1222
+
+Eyefinity
+//800C9DA4 0555

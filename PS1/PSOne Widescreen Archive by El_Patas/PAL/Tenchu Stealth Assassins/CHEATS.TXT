@@ -1,0 +1,14 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Tenchu: Stealth Assassins [PAL] (SLES-01374)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800C5350 0C00 //Gameplay
+8008DA9A OCOO //Graphic container of life bar
+8008DABE OC00 //Life bar
+
+//Eyefinity
+//800C5350 0400

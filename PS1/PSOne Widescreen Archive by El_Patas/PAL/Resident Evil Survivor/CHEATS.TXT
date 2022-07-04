@@ -1,0 +1,14 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Resident Evil Survivor [PAL] (SLES-02732)
+Comment=You can't aim and shoot beyond the 4:3 mark.
+Comentario=No se puede apuntar la mira y disparar más allá del marco 4:3.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80065B80 0C00
+
+//Eyefinity
+//80065B80 0400

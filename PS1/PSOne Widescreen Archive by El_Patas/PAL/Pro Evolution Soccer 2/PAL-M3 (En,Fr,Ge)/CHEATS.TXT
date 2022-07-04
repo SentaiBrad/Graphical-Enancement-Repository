@@ -1,0 +1,12 @@
+Widescreen hack by Polipoli
+$SAFEMODE
+
+#Pro Evolution Soccer 2 [PAL-M3] (SLES-03946)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8007D2E0 0C00
+
+//Eyefinity
+//8007D2E0 0400

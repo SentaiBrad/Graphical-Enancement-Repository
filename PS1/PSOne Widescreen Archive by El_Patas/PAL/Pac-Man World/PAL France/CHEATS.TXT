@@ -1,0 +1,12 @@
+Widescreen hack by krHACKen
+$SAFEMODE
+
+#Pac-Man World 20th Anniversary [PAL-FR] (SCES-02277)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+30151761 000C
+
+//Eyefinity
+//30151761 0004

@@ -1,0 +1,30 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Sled Storm [PAL] (SLES-02194)
+Comment=Is better use the hexadecimal values because they are exact in all player modes of the
+game, while the Gameshark codes in the side of the first player of the 2 Player modes is a
+little stretched.
+Comentario=Es mejor usar el valor hexadecimal porque es exacto en todos los modos de juego,
+mientras que los códigos de Gameshark en la parte del primer jugador del modo 2 jugadores
+sigue estando la pantalla un poco ensanchada.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800E27F0 1333 //1 Player Modes and first player of 2 Player modes
+800E2900 0E66 //Second player of 2 Player modes
+ 
+//Eyefinity
+//800E27F0 0666 //1 Player Modes and first player of 2 Player modes
+//800E2900 04CC //Second player of 2 Player modes
+
+----------------------------------------------------------------------------------------
+HEXADECIMAL VALUES  
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+
+Search:
+99190224 0000C2AC 00100224 0400C2AC 5B6E0108 0800C2AC F400838C 01000224 07006210 00000000 05006014 07000224 8000C2AC 7000C2AC 4A6E0108 000E0224 09000224 8000C2AC 7000C2AC 00120224 0001C2A4 33130224 0000C2AC 400B0224 0400C2AC 00100224 5B6E0108 0800C2AC 7000C2AC CC0C0224 0000C2AC 80070224                                                                                 
+Replace:
+33130224 0000C2AC 00100224 0400C2AC 5B6E0108 0800C2AC F400838C 01000224 07006210 00000000 05006014 07000224 8000C2AC 7000C2AC 4A6E0108 000E0224 09000224 8000C2AC 7000C2AC 00120224 0001C2A4 660E0224 0000C2AC 400B0224 0400C2AC 00100224 5B6E0108 0800C2AC 7000C2AC 99090224 0000C2AC 80070224

@@ -1,0 +1,15 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Raystorm [PAL] (SCES-00742)
+Comment=You can't move the ship beyond the 4:3 mark.
+Comentario=No se puede mover la nave más allá del marco 4:3.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800878B8 0C00 //Background
+800878D8 1500 //Ship left position
+
+//Eyefinity
+//800878B8 0400

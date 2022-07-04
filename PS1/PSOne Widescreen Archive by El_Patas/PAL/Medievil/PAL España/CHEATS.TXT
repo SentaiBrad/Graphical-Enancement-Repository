@@ -1,0 +1,31 @@
+Widescreen hack by El_Patas & MrMrKARATEKYUKEN
+$SAFEMODE
+
+#Medievil [PAL-Spain] (SCES-01495)
+Comment=The codes includes JOKER codes made by MrMrKARATEKYUKEN for prevent freezes of the
+game. For activate or deactivate the JOKER codes use the buttons "L1+O: ON" or "L1+X: OFF".
+Comentario=Los códigos incluyen códigos JOKER creados por MrMrKARATEKYUKEN para prevenir
+cuelgues en el juego. Para activar o desactivar los códigos JOKER usar los botones 
+de "L1+O: ON" o "L1+X: OFF".
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+D00F1DFA BBFF //Gameplay
+800F8BD8 1999
+D00F1DFA DBFF
+800F8BD8 1333
+D00F1DFA BBFF //Menu
+800F84D0 1999
+D00F1DFA DBFF
+800F84D0 1333
+
+//Eyefinity
+//D00F1DFA BBFF //Gameplay
+//800F8BD8 1999
+//D00F1DFA DBFF
+//800F8BD8 0666
+//D00F1DFA BBFF //Menu
+//800F84D0 1999
+//D00F1DFA DBFF
+//800F84D0 0666

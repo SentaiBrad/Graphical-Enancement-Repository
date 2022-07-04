@@ -1,0 +1,12 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Wu-Tang: Shaolin Style [PAL-UK] (SLES-02170)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8009BEF8 1333
+
+//Eyefinity
+//8009BEF8 0666

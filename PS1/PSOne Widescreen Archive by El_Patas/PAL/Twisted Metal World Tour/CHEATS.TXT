@@ -1,0 +1,12 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Twisted Metal: World Tour [PAL] (SCES-00567)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8017EC1C 0C00
+
+//Eyefinity
+//8017EC1C 0400

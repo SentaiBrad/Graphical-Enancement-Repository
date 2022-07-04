@@ -1,0 +1,20 @@
+Widescreen hack by krHACKen
+$SAFEMODE
+
+#Syphon Filter [PAL-FR] (SCES-01911)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+3012DE01 000C
+
+//Ultra Widescreen 16:9
+//3012DE01 000C
+//8012DE10 1333
+
+//Eyefinity
+//3012DE01 0004
+
+//Ultra Eyefinity
+//3012DE01 0004
+//8012DE10 4000

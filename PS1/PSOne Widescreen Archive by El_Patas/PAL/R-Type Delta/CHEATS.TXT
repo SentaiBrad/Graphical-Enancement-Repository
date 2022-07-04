@@ -1,0 +1,14 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#R-Type Delta [PAL] (SCES-01762)
+Comment=You can't move the ship beyond the 4:3 mark, needs render fix.
+Comentario=No se puede mover la nave más allá del marco 4:3, necesita corrección renderizado.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80193740 0C00
+
+//Eyefinity
+//80193740 0400

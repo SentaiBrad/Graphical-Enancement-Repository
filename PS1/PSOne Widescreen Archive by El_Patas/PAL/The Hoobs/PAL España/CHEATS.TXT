@@ -1,0 +1,21 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#The Hoobs [PAL-Spain] (SCES-03758)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80141A05 400F //Personajes 3D menú principal
+801031B0 0C00 //El ártico
+80121614 0C00 //La playa
+80117194 0C00 //El corral
+80124114 0C00 //Las montañas
+80119894 0C00 //La jungla
+
+//Eyefinity
+//801031B0 0400 //El ártico
+//80121614 0400 //La playa
+//80117194 0400 //El corral
+//80124114 0400 //Las montañas
+//80119894 0400 //La jungla

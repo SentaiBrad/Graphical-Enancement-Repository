@@ -1,0 +1,14 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#The Legend of Dragoon [PAL-Spain] (SCES-03047/SCES-13047/SCES-23047/SCES-33047) 
+comment=Only 3D battles.
+comentario=Sólo batallas 3D.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800C3890 0C00
+
+//Eyefinity
+//800C3890 0400

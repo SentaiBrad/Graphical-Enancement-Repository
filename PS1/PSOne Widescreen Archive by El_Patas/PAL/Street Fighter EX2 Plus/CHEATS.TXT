@@ -1,0 +1,14 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Street Fighter EX2 Plus [PAL] (SLES-02598)
+Comment=Works only in characters and floor.
+Comentario=Funciona sólo con los personajes y el suelo.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+801F7C90 0C00
+
+//Eyefinity
+//801F7C90 0400

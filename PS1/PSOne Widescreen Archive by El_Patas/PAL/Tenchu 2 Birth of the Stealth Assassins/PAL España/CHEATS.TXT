@@ -1,0 +1,14 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Tenchu 2: Birth of the Stealth Assassins [PAL-España] (SLES-02465)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800CCE90 0C00 //Main Game
+800CFF78 0C00 //Missions Editor
+
+//Eyefinity
+//800CCE90 0400 //Main Game
+//800CFF78 0400 //Missions Editor

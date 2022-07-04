@@ -1,0 +1,21 @@
+Widescreen hack by Esppiral
+$SAFEMODE
+
+#Metal Gear Solid [PAL UK] (SLES-01370/11370)
+Comment:Brokes the first camera view in some angles.
+Comentario:Se estropea la cámara de primera persona en ciertos ángulos.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+
+
+----------------------------------------------------------------------------------------
+HEXADECIMAL VALUES  
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+
+Search:
+2000A627 3000A28F 00000000 000022A6
+Replace:
+2000A627 000C0224 00000000 000022A6
