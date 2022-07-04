@@ -1,0 +1,23 @@
+Widescreen hack by gamemasterplc
+$SAFEMODE
+
+#Crash Bandicoot 3: Warped [NTSC-U] (SCUS-94244)
+Comment=Needs render fix.
+Comentario=Necesita corrección renderizado.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80018A90 0C00
+80018A92 2402
+80018A94 1000
+80018A96 2413
+80018AB2 A633
+
+//Widescreen 16:9 (Vert-)
+//80018A90 1000
+//80018A92 2402
+//80018A94 1555
+//80018A96 2413
+//80018AB2 A633
+

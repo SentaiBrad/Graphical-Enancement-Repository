@@ -1,0 +1,11 @@
+Widescreen hack by El_Patas
+$SAFEMODE
+
+#Brave Fencer Musashi [NTSC-U] (SLUS-00726)
+Comment=Needs render fix in the floor of some backgrounds.
+Comentario=Necesita corrección renderizado en el suelo de algunos escenarios.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9 
+800AE7F0 0C00

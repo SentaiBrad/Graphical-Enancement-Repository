@@ -1,0 +1,23 @@
+Widescreen hack by gamemasterplc
+$SAFEMODE
+
+#Crash Bandicoot 2: Cortex Strikes Back [NTSC-U] (SCUS-94154)
+Comment=Needs render fix.
+Comentario=Necesita corrección renderizado.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80017BFC 0C00
+80017BFE 241B
+80017C00 1000
+80017C02 2402
+80017C1E A67B
+
+//Widescreen 16:9 (Vert-)
+//80017BFC 1000
+//80017BFE 241B
+//80017C00 1555
+//80017C02 2402
+//80017C1E A67B 
+

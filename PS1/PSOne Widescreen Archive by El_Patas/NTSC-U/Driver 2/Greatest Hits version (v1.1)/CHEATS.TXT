@@ -1,0 +1,14 @@
+Widescreen hack by PsxFan107
+$SAFEMODE
+
+#Driver 2 [NTSC-U] (SLUS-01161) (Greatest Hits version) (v1.1)
+Comment=Needs render fix.
+Comentario=Necesita corrección renderizado. 
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8007F170 0C00
+
+//Eyefinity
+//8007F170 0400

@@ -1,0 +1,12 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Frogger 2: Swampy's Revenge [NTSC-U] (SLUS-01172)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800A4818 0C00
+
+//Eyefinity
+//800A4818 0400

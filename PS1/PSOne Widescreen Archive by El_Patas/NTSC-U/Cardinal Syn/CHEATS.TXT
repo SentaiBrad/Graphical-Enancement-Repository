@@ -1,0 +1,12 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Cardinal Syn [NTSC-U] (SCUS-94156)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+801EAD78 0C00
+
+//Eyefinity
+//801EAD78 0400

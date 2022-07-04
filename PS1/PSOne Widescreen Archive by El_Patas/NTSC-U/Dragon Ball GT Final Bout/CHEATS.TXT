@@ -1,0 +1,16 @@
+Widescreen hack by Goshorai
+$SAFEMODE
+
+#Dragon Ball GT: Final Bout [NTSC-U] (SLUS-04493)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9 
+8003BE30 0C00
+
+//Widescreen 21:9 
+//8003BE30 0900
+
+//Eyefinity 
+//8003BE30 0400
+

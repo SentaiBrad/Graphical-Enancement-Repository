@@ -1,0 +1,14 @@
+Widescreen hack by VIRGIN KLM
+$SAFEMODE
+
+#Bushido Blade [NTSC-U] (SCUS-94180)
+Comment=Has the same issue as Tekken 5 on PS2 widescreen hack, some effects like the 
+sword trail is not scaled, not as severe as Tekken 5 patch though.
+Comentario=Tiene el mismo problema que el parche de pantalla panoramica del Tekken 5 para 
+PS2, algunos efectos como el del recorrido de la espada no se escalan, aunque no es tan 
+grave como ocurre en el parche del Tekken 5.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8013C87C 0C00

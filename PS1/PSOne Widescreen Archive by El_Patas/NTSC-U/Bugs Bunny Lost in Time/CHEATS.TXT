@@ -1,0 +1,14 @@
+Widescreen hack by VIRGIN KLM
+$SAFEMODE
+
+#Bugs Bunny: Lost in Time [NTSC-U] (SLUS-00838)
+Comment=For Eyefinity is GPU intense, massive slowdown, de-syncs/breaks cutscenes.
+Comentario=Para Eyefinity fuerza mucho la GPU, grandes ralentizaciones, desincronizaciones y fallos en las escenas cinemáticas.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80076150 0C00
+
+//Eyefinity
+//80076150 0400

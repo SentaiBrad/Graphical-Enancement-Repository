@@ -1,0 +1,12 @@
+Widescreen hack by VIRGIN KLM
+$SAFEMODE
+
+#Colin McRae Rally [NTSC-U] (SCUS-94474) 
+Comment=The game have the option of widescreen mode, this code is only for Eyefinity.
+Comentario=El juego ya tiene opción de pantalla panorámica, este código es sólo para Eyefinity.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+---------------------------------------------------------------------------------------- 
+//Eyefinity
+800DCE80 7000
+800DCE82 0000

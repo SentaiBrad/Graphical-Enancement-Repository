@@ -1,0 +1,14 @@
+Widescreen hack by VIRGIN KLM
+$SAFEMODE
+
+#Bugs Bunny & Taz: Time Busters [NTSC-U] (SLUS-01144)
+Comment=For Eyefinity is GPU intense, will frameskip or slowdown on alot of occasions, still not bad.
+Comentario=Para Eyefinity fuerza mucho la GPU, tendrá saltos o ralentizaciones en muchas ocasiones.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800990AC 0C00
+
+//Eyefinity
+//800990AC 0400

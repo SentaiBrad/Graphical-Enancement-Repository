@@ -1,0 +1,14 @@
+Widescreen hack by VIRGIN KLM
+$SAFEMODE
+
+#Deuce (Unreleased Title)
+Comment=About the Eyefenity code is not recommended, prone to crashing.
+Comentario=El código para Eyefinity no se recomienda ya que es propenso a colgarse.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800925D0 1333
+
+//Eyefinity
+//800925D0 0666

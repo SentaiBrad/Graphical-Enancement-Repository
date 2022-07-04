@@ -1,0 +1,14 @@
+Widescreen hack by VIRGIN KLM
+$SAFEMODE
+
+#Bloody Roar 2 [NTSC-U] (SCUS-94424)
+Comment=The game has 3 widescreen modes that not even one is correct, use that one instead.
+Comentario=El juego tiene 3 opciones de pantalla panorámica pero ninguno es correcto, utiliza este código.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+801F0018 1333
+
+//Eyefinity
+//801F0018 0666

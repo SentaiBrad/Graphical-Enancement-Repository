@@ -1,0 +1,9 @@
+Widescreen hack by allkhan
+$SAFEMODE
+
+#Fatal Fury: Wild Ambition [NTSC-U] (SLUS-01001)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8007B59C 0C00

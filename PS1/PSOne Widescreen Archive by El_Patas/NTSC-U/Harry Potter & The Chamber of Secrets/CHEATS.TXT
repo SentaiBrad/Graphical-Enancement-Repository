@@ -1,0 +1,12 @@
+Widescreen hack by Hermione
+$SAFEMODE
+
+#Harry Potter & The Chamber of Secrets [NTSC-U] (SLUS-01503)
+Comment=The value can be increased/decreased at the player's preference. 
+Can be set to 3000 but 2000 is more stable.
+It does cause some issues with drawing distances and tight spaces.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen
+80075C6E 2000

@@ -1,0 +1,11 @@
+Widescreen hack by Kooler186
+$SAFEMODE
+
+#Beyblade: Let it Rip! [NTSC-U] (SLUS-01489)
+Comment=I would prefer using 0E00 but there's a major issue with the beyblades going 
+through the wall and would require another code but yeah. Just use EC8.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80048342 0EC8

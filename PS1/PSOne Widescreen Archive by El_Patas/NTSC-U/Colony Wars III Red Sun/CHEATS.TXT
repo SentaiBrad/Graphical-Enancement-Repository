@@ -1,0 +1,19 @@
+Widescreen hack by VIRGIN KLM
+$SAFEMODE
+
+#Colony Wars III: Red Sun [NTSC-U] (SLUS-00866)
+Comment=The cockpit sides while in cockpit view are still streched. Checking how it looks 
+unstreched in PCSX-r with the widescreen hack option, i think streched looks better (cockpit 
+has missing geometry outside 4:3 area). Everything else is fine.
+Comentario=Los lados de la cabina en la vista de cabina siguen estando ensanchados. 
+Comprobando como se ve sin ensanchar en el PCSX-r con la opción de pantalla panorámica, creo 
+que ensanchado se ve mejor (a la cabina le falta geometría fuera del área 4:3). 
+Todo lo demás está bien.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80119970 1333
+
+//Eyefinity
+//80119970 0666

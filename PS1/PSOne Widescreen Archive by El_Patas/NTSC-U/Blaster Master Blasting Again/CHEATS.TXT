@@ -1,0 +1,12 @@
+Widescreen hack by VIRGIN KLM
+$SAFEMODE
+
+#Blaster Master: Blasting Again [NTSC-U] (SLUS-01424)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800C5CB6 0C00
+
+//Eyefinity
+//800C5CB6 0400

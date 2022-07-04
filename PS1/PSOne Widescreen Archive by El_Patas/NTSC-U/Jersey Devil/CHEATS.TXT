@@ -1,0 +1,28 @@
+Widescreen hack by Paul_met
+$SAFEMODE
+
+#Jersey Devil [NTSC-U] (SCUS-94907)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80048164 0C00
+
+//21:9
+//80048164 0900
+//Eyefinity
+//80048164 0400
+
+----------------------------------------------------------------------------------------
+HEXADECIMAL VALUES
+----------------------------------------------------------------------------------------
+
+File: "MAIN.EXE"
+Offset / Value
+36764  000C
+
+Extract the executable file of the game (SLUS, SLES, SLPM, etc), change the value,
+and insert the file back to the CD image exclusively using the CDMage tool.
+
+
+

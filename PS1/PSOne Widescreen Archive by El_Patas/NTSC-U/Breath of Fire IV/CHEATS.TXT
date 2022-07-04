@@ -1,0 +1,36 @@
+Widescreen hack by Paul_met
+$SAFEMODE
+
+#Breath of Fire IV [NTSC-U] (SLUS-01324)
+Comment: Sometimes you can see the renderer's limitations.
+Comentario: A veces se pueden ver las limitaciones del renderizado.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8016AE1C 0c00
+8016AE1E 240A
+8016AE24 1000
+8016AE26 240A
+8016AE94 0c00
+8016AE96 240A
+8016AE9C 1000
+8016AE9E 240A
+
+----------------------------------------------------------------------------------------
+HEXADECIMAL VALUES
+----------------------------------------------------------------------------------------
+
+File: "SLUS_013.24"
+72E1C 000c0a24
+72E24 00100a24
+72E94 000c0a24
+72E9C 00100a24
+
+Extract the executable file of the game (SLUS, SLES, SLPM, etc), change the value,
+and insert the file back to the CD image exclusively using the CDMage tool.
+CDMage corrects ECC/ EDC of the image. If patching the image directly by hexeditor, 
+then the data will be different with the information in the EDC / ECC blocks. 
+Otherwise this can cause errors when running any verification of conformity.
+
+

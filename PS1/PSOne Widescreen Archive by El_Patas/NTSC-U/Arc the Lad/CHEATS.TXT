@@ -1,0 +1,41 @@
+Widescreen hack by Paul_met
+$SAFEMODE
+
+#Arc the Lad [NTSC-U] (SLUS-01224)
+Comment=Widescreen 16:10 (Because if to change aspect ratio to 16:9 will be apears the 
+thin vertical black bars). Widescreen is effective only on battle locations with 
+horizontal scrolling. But while scrolling the screen briefly appear vertical black 
+bars on one sides. So, some 2D games are also amenable to changing the aspect ratio 
+if uses certain geometric primitives.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:10
+80181368 0D00
+8018136A 2409
+8019A5CC 0080
+8019A5CE 0080
+8019A5E0 0120
+8019A5E2 0080
+8019A5E8 0042
+
+----------------------------------------------------------------------------------------
+HEXADECIMAL VALUES  
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+
+Offset / Value / Help:
+66F68 000d0924 (Widescreen)
+801CC 80008000 (X1,Y1 title screen position fix)
+801E0 20018000 (X2,Y2 title screen position fix)
+801E8 4200 (Title screen cropping fix)
+
+Extract the executable file of the game (SLUS, SLES, SLPM, etc), change the value,
+and insert the file back to the CD image exclusively using the CDMage tool.
+CDMage corrects ECC/ EDC of the image. If patching the image directly by hexeditor, 
+then the data will be different with the information in the EDC / ECC blocks. 
+Otherwise this can cause errors when running any verification of conformity.
+
+
+
+

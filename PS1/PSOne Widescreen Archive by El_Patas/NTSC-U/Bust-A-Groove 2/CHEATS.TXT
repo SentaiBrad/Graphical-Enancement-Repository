@@ -1,0 +1,19 @@
+Widescreen hack by Esppiral
+$SAFEMODE
+
+#Bust-A-Groove 2 [NTSC-U] (SLUS-01159)
+----------------------------------------------------------------------------------------
+HEXADECIMAL VALUES
+----------------------------------------------------------------------------------------
+
+File: "SLUS_011.59"
+Offset / Value
+84dc 3413
+
+Extract the executable file of the game (SLUS, SLES, SLPM, etc), change the value,
+and insert the file back to the CD image exclusively using the CDMage tool.
+CDMage corrects ECC/ EDC of the image. If patching the image directly by hexeditor, 
+then the data will be different with the information in the EDC / ECC blocks. 
+Otherwise this can cause errors when running any verification of conformity.
+
+
