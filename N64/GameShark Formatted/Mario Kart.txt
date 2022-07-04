@@ -1,0 +1,78 @@
+Mario Kart 64 Patches
+https://tasvideos.org/GameResources/N64/MarioKart64/Patches
+
+These codes are in the GameShark format.
+
+//30 fps Codes  by Sean Sullivan
+//Three and Four Player game tempo fix
+81001C90 240A
+81001C92 0002
+81001C94 240A
+81001C96 0002
+
+//Two Player game tempo fix
+81001A38 2409
+81001A3A 0002
+81001A3C 2409
+81001A3E 0002
+
+
+//60 FPS Tempo (NTSC)
+//Requires emulator to be played at 200% speed for correct pacing
+810015C4 240F
+810015C6 0001
+810015C8 240F
+810015CA 0001
+
+//Two Player 60fps tempo
+//Requires emulator to be played at 200% speed for correct pacing
+81001A38 2409
+81001A3A 0001
+81001A3C 2409
+81001A3E 0001
+
+//Three and Four Player 60fps tempo:
+//Requires emulator to be played at 200% speed for correct pacing
+81001C90 240A
+81001C92 0001
+81001C94 240A
+81001C96 0001
+
+Japanese (1.0 and 1.1) versions by micro500
+//One Player 60fps tempo:
+//Requires emulator to be played at 200% speed for correct pacing
+810015A4 240F
+810015A6 0001
+810015A8 240F
+810015AA 0001
+
+//Two Player 60fps tempo:
+//Requires emulator to be played at 200% speed for correct pacing
+81001A18 2409
+81001A1A 0001
+81001A1C 2409
+81001A1E 0001
+
+Three and Four Player 60fps tempo:
+//Requires emulator to be played at 200% speed for correct pacing
+81001C70 240A
+81001C72 0001
+81001C74 240A
+81001C76 0001
+
+//16:9 Anamorphic Widescreen by Jorge Luis
+//You can only have one of these on at at time. Need to make a more complicated code to edit this value based on the number of players.
+//1P, 3P and 4P: 
+81150148 3FDF
+
+//2P
+81150148 4060
+
+
+//All Players Can Choose The Same Character
+810B3924 2400
+810B3936 7FFF
+810B39A4 2400
+810B39B6 7FFF
+810B3A38 2400
+810B3A4E 7FFF

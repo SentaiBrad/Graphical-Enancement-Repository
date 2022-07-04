@@ -1,0 +1,3 @@
+N64 patching is also as disjointed as PS1 is. There do seem to be a lot of Patch based enhancements, but these will break any Retro Achievement compatability that exists for a specific game. If the set creator on RA has also linked the patched rom, that is the only scenario it will work. You can try and request it be added on the games thread on RA.
+
+N64 seems to primarily be using GameShark formatted codes. These will work in RetroArch, as well as Project64.
