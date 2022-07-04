@@ -1,0 +1,109 @@
+King's Field 4 - The Ancient City (NTSC) CRC - 36E02E91
+
+
+//Deinterlacing + FMV Fix
+patch=1,EE,202218B4,extended,00000000
+patch=1,EE,2022193C,extended,00000000
+patch=1,EE,0021F710,word,00000000
+
+
+//Light modifiers
+//Source light
+patch=1,EE,0019B204,word,3C013EC0 //3C013F80
+//Enemy light
+patch=1,EE,00125C44,word,3C014340 //3C014300
+//Red light
+patch=1,EE,00113014,word,3C013F20 //3C013F80
+//Green light
+patch=1,EE,00112FE0,word,3C013F30 //3C013F80
+//Yellow light
+patch=1,EE,00113048,word,3C013F40 //3C013F80
+
+//Move Speed Enhanced
+patch=0,EE,40413DE0,extended,00020001
+patch=0,EE,41800000,extended,00000000
+patch=0,EE,40413DE8,extended,00030001
+patch=0,EE,41200000,extended,00000000
+//Move Acceleration Enhanced
+patch=0,EE,40413DF8,extended,00050001
+patch=0,EE,41800000,extended,00000000
+//Move Deceleration Enhanced
+patch=0,EE,40413E10,extended,00050001
+patch=0,EE,41800000,extended,00000000
+
+//Analog Enhanced
+patch=1,EE,201B84EC,extended,3C013C01
+patch=1,EE,201B84F0,extended,44810800
+patch=1,EE,201B84F4,extended,3C0301E1
+patch=1,EE,201B84F8,extended,9062DC06
+patch=1,EE,201B84FC,extended,2403007F
+patch=1,EE,201B8500,extended,00431022
+patch=1,EE,201B8504,extended,44820000
+patch=1,EE,201B8508,extended,46800020
+patch=1,EE,201B850C,extended,46010002
+patch=1,EE,201B8510,extended,46160002
+patch=1,EE,201B8514,extended,26E23F80
+patch=1,EE,201B8518,extended,E44001BC
+patch=1,EE,201B851C,extended,0806E16F
+patch=1,EE,201B8520,extended,00000000
+
+//R1+Select+Cross+Square+Triangle = New Game+
+//patch=1,EE,E00X0100,extended,3034A096
+patch=1,EE,E00AD801,extended,00413DA8
+
+//Full Rotation
+patch=1,EE,2044625C,extended,3FC7C82D
+patch=1,EE,20446260,extended,BFC7C82D
+patch=1,EE,2044632C,extended,3FC7C82D
+patch=1,EE,20446330,extended,BFC7C82D
+
+//Giant Spider Fix
+patch=1,EE,10480DAA,extended,0000000F
+//Earth Elem Fix
+patch=1,EE,104914BA,extended,0000000F
+
+//Creature MoveSpeed Enhanced
+patch=1,EE,4047EC50,extended,00FF0114
+patch=1,EE,3FA66666,extended,00000000
+ 
+//Creature RotAcc Enhanced
+patch=1,EE,4047EBE8,extended,00FF0114
+patch=1,EE,3D0F5C29 ,extended,00000000
+ 
+//Creature RotMax Enhanced
+patch=1,EE,4047EBEC,extended,00FF0114
+patch=1,EE,3EB33333,extended,00000000
+ 
+//Creature AnimSpeed Enhanced
+patch=1,EE,4047EC10,extended,00FF0114
+patch=1,EE,02000200,extended,00000000
+patch=1,EE,4047EC14,extended,00FF0114
+patch=1,EE,02000200,extended,00000000
+patch=1,EE,4047EC18,extended,00FF0114
+patch=1,EE,02000200,extended,00000000
+patch=1,EE,4047EC1C,extended,00FF0114
+patch=1,EE,02000200,extended,00000000
+patch=1,EE,4047EC20,extended,00FF0114
+patch=1,EE,02000200,extended,00000000
+patch=1,EE,4047EC24,extended,00FF0114
+patch=1,EE,02000200,extended,00000000
+patch=1,EE,4047EC28,extended,00FF0114
+patch=1,EE,02000200,extended,00000000
+patch=1,EE,4047EC2C,extended,00FF0114
+patch=1,EE,02000200,extended,00000000
+patch=1,EE,4047EC30,extended,00FF0114
+patch=1,EE,02000200,extended,00000000
+patch=1,EE,4047EC34,extended,00FF0114
+patch=1,EE,02000200,extended,00000000
+patch=1,EE,4047EC38,extended,00FF0114
+patch=1,EE,02000200,extended,00000000
+patch=1,EE,4047EC3C,extended,00FF0114
+patch=1,EE,02000200,extended,00000000
+patch=1,EE,4047EC40,extended,00FF0114
+patch=1,EE,02000200,extended,00000000
+patch=1,EE,4047EC44,extended,00FF0114
+patch=1,EE,02000200,extended,00000000
+patch=1,EE,4047EC48,extended,00FF0114
+patch=1,EE,02000200,extended,00000000
+patch=1,EE,4047EC4C,extended,00FF0114
+patch=1,EE,02000200,extended,00000000

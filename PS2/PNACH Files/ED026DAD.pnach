@@ -1,0 +1,6 @@
+gametitle=ryuuko no ken - ten-chi-jin (Art of figthing) SELECT.ELF;1) Game CRC = 0xED026DAD
+comment=No interleacing + progressive 240p test 2 - ISO patch use PS2 Patch engine
+
+patch=0,EE,2023707c,extended,3c050000
+patch=0,EE,20237084,extended,3c060050
+patch=0,EE,2023708c,extended,3c070001

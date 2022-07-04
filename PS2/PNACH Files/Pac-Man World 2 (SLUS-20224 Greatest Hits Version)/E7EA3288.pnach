@@ -1,0 +1,25 @@
+gametitle=Pacman world 2 SLUS_202.24;1) Game CRC = 0xE7EA3288
+comment=Enhancement test
+
+//official Widescreen auto-enable (vertical screen skewed - code from widescreen forums)
+patch=1,EE,205A68C0,extended,00000001 // change value to 0 for 4:3
+
+//Framebuffer workaround
+patch=1,EE,E004800E,extended,00330050
+patch=1,EE,20330008,extended,00000002
+patch=1,EE,20330010,extended,000014A0
+patch=1,EE,20330030,extended,00000002
+patch=1,EE,20330038,extended,000014A0
+
+patch=1,EE,E0028008,extended,00330050
+patch=1,EE,2032F988,extended,00000002
+patch=1,EE,2032F990,extended,00001038
+
+//No interleacing videos (maybe some parts too, but with framebuffer code is no necessary)
+patch=1,EE,202B95BC,extended,64420000
+
+//render camera (for testing) * official code widescreen do same, change values affect positions etc.
+//patch=1,EE,20119274,extended,3C013F40 // halfword values 40=wide (still skewed) 80=4:3 others 
+//patch=1,EE,20119278,extended,44810000
+//patch=1,EE,20119280,extended,4600C602
+

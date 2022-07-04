@@ -1,0 +1,5 @@
+Gungrave (U)
+CRC - BF5D9AEC
+
+//No-Interlacing
+patch=1,EE,001af74c,word,00000000 //64420008 

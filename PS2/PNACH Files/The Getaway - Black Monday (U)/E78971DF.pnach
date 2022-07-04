@@ -1,0 +1,5 @@
+gametitle=The Getaway - Black Monday (U)(SCUS-97408)
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,00434e28,word,24020002 //30420003
+

@@ -1,0 +1,6 @@
+gametitle=Mafia [SLUS 20671] (U)
+//Patched by Prafull
+//avoid hang before molotov party
+patch=1,EE,003e2bb4,word,00000000
+//fix crash in The priest mission
+patch=1,EE,0016f04c,word,1000000d

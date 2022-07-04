@@ -1,0 +1,5 @@
+gametitle=Teenage Mutant Ninja Turtles - Smash-Up (U)(SLUS-21904)
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,002362a0,word,24020002 //30420003
+

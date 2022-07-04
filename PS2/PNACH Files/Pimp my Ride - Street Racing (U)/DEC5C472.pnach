@@ -1,0 +1,5 @@
+gametitle=Pimp my Ride - Street Racing (USA) [SLUS-21872]
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,00241fa0,word,24020002 //30420003
+

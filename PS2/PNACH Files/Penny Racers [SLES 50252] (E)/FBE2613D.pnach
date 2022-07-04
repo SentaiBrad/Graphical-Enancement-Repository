@@ -1,0 +1,8 @@
+gametitle=Penny Racers [SLES 50252] (E)
+//Patched by Prafull
+//Fixes vsync issues
+patch=0,EE,001a66ac,word,03e00008
+//Avoid hang at first loading screen
+patch=0,EE,001a6688,word,00000000
+//Skips movies
+patch=0,EE,001b1b00,word,24020001

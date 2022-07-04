@@ -1,0 +1,14 @@
+gametitle=Ratchet & Clank 1 (SCUS-97199) ONLY, game CRC 0xCE4933D0
+comment=Draw distance cheat by KabutoKun
+
+//"Normal" preset in debug menu
+//patch=1,EE,0015FFF0,word,000001F4 //NPCs,integer
+//patch=1,EE,001604A4,word,43FA0000 //Objects?,float
+//patch=1,EE,00160F80,word,48FA0000 //Stage,float
+//patch=1,EE,00160FE0,word,44340000 //StaticObjects,float
+
+//"Near" preset in debug menu
+patch=1,EE,0015FFF0,word,00000040 //NPCs,integer
+patch=1,EE,001604A4,word,42200000 //Objects?,float
+patch=1,EE,00160F80,word,47800000 //Stage,float
+patch=1,EE,00160FE0,word,42800000 //StaticObjects,float

@@ -1,0 +1,5 @@
+gametitle=Transformers - Revenge of the Fallen (K)(SLKA-25459)
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,00197088,word,24020002 //30420003
+

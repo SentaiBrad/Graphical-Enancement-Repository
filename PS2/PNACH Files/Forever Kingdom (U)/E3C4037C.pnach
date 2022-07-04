@@ -1,0 +1,7 @@
+Forever Kingdom (NTSC) CRC - E3C4037C
+
+//Deinterlacing & Shaking
+//Subtitles in FMV are flickering. In order to solve it, in PCSX2 Interlacing options use Automatic or blend tff to fix it
+//You can also simply disable the subtitles in the game options. 
+patch=1,EE,00104DA8,word,00000000
+patch=1,EE,00202E94,word,00000000

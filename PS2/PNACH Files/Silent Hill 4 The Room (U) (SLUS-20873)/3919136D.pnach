@@ -1,0 +1,89 @@
+gametitle=Silent Hill 4: The Room [SLUS-20873] (U)
+comment=Patches/Codes Hacked By Maori-Jigglypuff [Savas Guercebe]
+
+// Infinite Health Henry [Codeline 1],
+// Henry doesn't wince by Enemy Attacks [Codelines 2 & 3],
+// Henry can walk away from Reaching-Ghosts [Codeline 4],
+// No Blood Splatter of Henry and Enemies [Codeline 5] and
+// Henry doesn't scream when Enemies attack [Codelines 6 - 10]
+patch=1,EE,0015cda4,word,4600ad46
+patch=1,EE,001e9928,word,24020000
+patch=1,EE,001e9da0,word,24020000
+patch=1,EE,001ea1c8,word,24020000
+patch=1,EE,002806dc,word,ae20001c
+patch=1,EE,002b2088,word,0c04088d
+patch=1,EE,002b2008,word,0c04088d
+patch=1,EE,002b1f78,word,0c04088d
+patch=1,EE,002b1fc8,word,0c04088d
+patch=1,EE,002b1f70,word,0c04088d
+
+// Enhance Game Sharpness
+//patch=1,EE,0013b330,word,240D0000
+
+// Constant correct Value 0x00000080 Adjustment to disable overall Fog Effect
+patch=1,EE,002e5398,word,64040080
+
+// Disable Blur-Effect when Ghost hangs on the Wall in Henrys Room
+patch=1,EE,002a50e8,word,0c04088d
+
+// Disable local Blur-Effects
+patch=1,EE,0024bef4,word,24020000
+
+// Disable global Blur-Effects
+patch=1,EE,002c4430,word,24020000
+
+// No black Borders
+patch=1,EE,001a970c,word,24030000
+patch=1,EE,001a972c,word,24030000
+
+// No Body Shadow of Characters and Ghosts on the Ground
+// [Removes also the moving Shadow of the Rotating Prison Tower in the Cells]
+patch=1,EE,00207964,word,64030000
+
+// Disable Beam of Light
+patch=1,EE,0022b808,word,24030000
+
+// Disable Noise Filter, Film Tear Effects
+// and Blur Cones
+patch=1,EE,002485e0,word,03E00008
+patch=1,EE,002485e4,word,00000000
+patch=1,EE,00273210,word,03E00008
+patch=1,EE,00273214,word,00000000
+
+// Disable World-, Cutscene-, Rooms- and
+// Outside World of Window Renderer
+patch=1,EE,001cd1b8,word,ac201f00
+
+// Create clean Window for Outlook
+patch=1,EE,002196bc,word,24100000
+
+// Enhance Characters and Ghosts real Body Light,
+// constant Adjust Characters In-Depth Filter
+// and disable their additional true Colours
+patch=1,EE,00138eb8,word,3c014348
+patch=1,EE,00138ed4,word,46001086
+patch=1,EE,00138ef0,word,46001006
+patch=1,EE,001f3ed0,word,3c064348
+patch=1,EE,001f3ed8,word,44860800
+patch=1,EE,00138edc,word,3c068000
+patch=1,EE,00138ee4,word,44860800
+patch=1,EE,001f3ed4,word,3c078000
+patch=1,EE,001f3ee8,word,44870000
+patch=1,EE,0014dee0,word,3C023FA0
+patch=1,EE,0014dee4,word,34420000
+patch=1,EE,0014dee8,word,3C050043
+patch=1,EE,0014deec,word,24A5FC60
+patch=1,EE,0014def0,word,ACA20000
+patch=1,EE,0014def4,word,ACA20004
+patch=1,EE,0014def8,word,3C033F80
+patch=1,EE,0014defc,word,ACA20008
+patch=1,EE,0014df00,word,03E00008
+patch=1,EE,0014df04,word,ACA2000C
+patch=1,EE,00155BF8,word,3C053E80
+patch=1,EE,00155BFC,word,34A50000
+patch=1,EE,00155C00,word,44850000
+patch=1,EE,00155C04,word,E4600000
+patch=1,EE,00155C08,word,E4600004
+patch=1,EE,00155C10,word,E4600008
+patch=1,EE,0010448c,word,7e200000
+patch=1,EE,0014cbb0,word,7ca00000

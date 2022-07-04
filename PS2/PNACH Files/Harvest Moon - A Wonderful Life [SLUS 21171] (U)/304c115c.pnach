@@ -1,0 +1,5 @@
+gametitle= Harvest Moon - A Wonderful Life [SLUS 21171] (U)
+comment=patches by Prafull
+//fix hang at shipping shed
+
+patch=1,EE,002bdb1c,word,00000000

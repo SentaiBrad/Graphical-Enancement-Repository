@@ -1,0 +1,16 @@
+gametitle=Kamen rider Climax heroes SLPS_259.44;1) Game CRC = 0x746B14AB
+comment=No interleacing + progressive mode
+
+//No interleacing Only
+patch=0,EE,20310A0C,extended,AF809F48
+patch=0,EE,203264F4,byte,00
+
+//Null Int Instr.
+patch=1,EE,20326488,extended,03E00008
+patch=1,EE,2032648C,extended,00000000
+
+//Enable progressive mode
+patch=0,EE,2032491C,extended,3c060050
+patch=0,EE,20324924,extended,3c070001
+patch=0,EE,20324C8C,extended,24020002
+

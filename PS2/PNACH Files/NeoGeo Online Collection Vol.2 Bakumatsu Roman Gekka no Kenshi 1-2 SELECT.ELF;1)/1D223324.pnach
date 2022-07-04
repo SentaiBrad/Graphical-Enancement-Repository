@@ -1,0 +1,6 @@
+gametitle= NeoGeo Online Collection Vol.2 Bakumatsu Roman Gekka no Kenshi 1-2 SELECT.ELF;1) Game CRC = 0x1D223324
+comment=No interleacing + progressive scan 240p test 3 - ISO patch use PS2 Patch engine
+
+patch=0,EE,202306ac,extended,3c050000
+patch=0,EE,202306b4,extended,3c060050
+patch=0,EE,202306bc,extended,3c070001

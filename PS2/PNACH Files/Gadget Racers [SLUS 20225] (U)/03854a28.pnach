@@ -1,0 +1,9 @@
+gametitle=Gadget Racers [SLUS 20225] (U)
+//Patched by Prafull
+//Fixes vsync issues
+patch=0,EE,001a62ac,word,03e00008
+//Avoid hang at first loading screen
+patch=0,EE,001a6288,word,00000000
+//Skips movies
+patch=0,EE,001b1700,word,24020001
+

@@ -1,0 +1,5 @@
+gametitle=The Dog Island - Hitotsu no Hana no Monogatari (J)(SLPM-66662)
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,003c50f8,word,24020002 //30420003
+

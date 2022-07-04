@@ -1,0 +1,5 @@
+gametitle=Scooby Doo! - First Frights (U)(SLUS-21900)
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,00136dc8,word,24020002 //30420003
+

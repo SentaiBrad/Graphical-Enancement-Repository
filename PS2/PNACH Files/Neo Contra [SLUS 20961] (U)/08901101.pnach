@@ -1,0 +1,7 @@
+gametitle=Neo Contra [SLUS 20961] (U) 
+comment= Patch By Prafull
+//New patch fixes most issues
+patch=0,EE,003a94f8,word,00000000
+//Fix hang at Level 4
+patch=0,EE,0037b1a4,word,03e00008
+patch=0,EE,0037b1a8,word,00000000

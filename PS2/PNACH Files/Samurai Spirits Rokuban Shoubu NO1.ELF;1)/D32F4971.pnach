@@ -1,0 +1,21 @@
+gametitle=Samurai Spirits Rokuban Shoubu NO1.ELF;1) Game CRC = 0xD32F4971
+comment=No interleacing + SDTV progressive test 2 - ISO patch use PS2 Patch engine
+
+//Samurai S6 SDTV progressive scan 240p (for ISO PATCH root\S6\ NO1.ELF *NO1_E.ELF is not used International Executable)
+patch=1,EE,E0060051,extended,0010011C // < no for ISO patch
+patch=1,EE,20100264,extended,3c050000 // < no for ISO patch * Posible Crash in video Intro
+patch=1,EE,2010026c,extended,3c060050
+patch=1,EE,20100274,extended,3c070001
+patch=1,EE,2010091C,extended,34021400 // < no for ISO Patch * FB
+patch=1,EE,20101A08,extended,03E00008 // Null Interleacing Ins
+patch=1,EE,20101A0C,extended,00000000
+
+//Intro + video + S1 > S5 games 480p (for ISO PATCH SLPS_258.39)
+patch=1,EE,E007001E,extended,0010011C // < no for ISO patch
+patch=1,EE,201018ac,extended,3c050000
+patch=1,EE,201018b4,extended,3c060050
+patch=1,EE,201018bc,extended,3c070001
+patch=1,EE,20102E80,extended,03E00008 // Null interleacing
+patch=1,EE,20102E84,extended,00000000
+patch=1,EE,201030E8,extended,03E00008
+patch=1,EE,201030EC,extended,00000000

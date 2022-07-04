@@ -1,0 +1,5 @@
+gametitle=Hot Shots Golf 4 (U)(SCUS-97401)
+//no interlacing by someother1ne
+patch=1,EE,0012a49c,word,00000000
+patch=1,EE,0012a704,word,00000000
+

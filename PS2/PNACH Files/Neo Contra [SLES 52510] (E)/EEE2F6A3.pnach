@@ -1,0 +1,7 @@
+gametitle=Neo Contra [SLES 52510] (E)
+comment= Patch By Prafull
+//New patch fixes most issues
+patch=0,EE,003a9b20,word,00000000
+//Fix hang at Level 4
+patch=0,EE,0037b764,word,03e00008
+patch=0,EE,0037b768,word,00000000

@@ -1,0 +1,99 @@
+gametitle= Valkyrie profile 2 Silmeria (SLUS_214.52;1) Game CRC = 0xCC96CE93
+comment=nop interleacing, progressive, sharp framebuffer Enhacement by Felixthecat1970 - v2021/04/10
+
+//Ignore GameGuard by Ryudo (Pcsx2 forums) - enable if game freeze through gameplay
+//patch=1,EE,FE129B51,extended,800813BF
+//patch=1,EE,000FFFFE,extended,0000022D
+//patch=1,EE,000FFFFF,extended,0000022D
+//patch=1,EE,9013A550,extended,0C04E8FC
+//patch=1,EE,E0033B40,extended,0035EC8C
+//patch=1,EE,104234AA,extended,00001000
+//patch=1,EE,10423662,extended,00001000
+//patch=1,EE,1042382A,extended,00001000
+//patch=1,EE,E0027EC0,extended,0049550C
+//patch=1,EE,2049BCB0,extended,03E00008
+//patch=1,EE,2049BCB4,extended,00000000
+//patch=1,EE,E007E140,extended,0036D90C
+//patch=1,EE,203683D4,extended,00000000
+//patch=1,EE,103AD16A,extended,00001000
+//patch=1,EE,103AD61E,extended,00001000
+//patch=1,EE,10430B76,extended,00001000
+//patch=1,EE,10430BE2,extended,00001000
+//patch=1,EE,10431A66,extended,00001000
+//patch=1,EE,10431C1E,extended,00001000
+//patch=1,EE,D0397CAC,extended,0000102A
+//patch=1,EE,20397CB0,extended,00000000
+
+//Auto 480p native mode alt
+//patch=1,EE,001D5984,byte,01 // 00000000 or use official combo button triangle + cross in boot
+
+//Auto Boot 480p native mode
+patch=1,EE,001D5984,extended,01 //00000000 or use official combo button triangle + cross in boot
+
+
+//Custom code start 
+//Sharp Framebuffer Battles
+patch=0,EE,200FFF5C,extended,341B9475
+patch=0,EE,200FFF60,extended,145B000C
+patch=0,EE,200FFF68,extended,341BF47F
+patch=0,EE,200FFF6C,extended,001BD83C
+patch=0,EE,200FFF70,extended,377B3134
+patch=0,EE,200FFF74,extended,001B1825
+patch=0,EE,200FFF78,extended,341B0019
+patch=0,EE,200FFF7C,extended,001BDC3C
+patch=0,EE,200FFF80,extended,007B1825
+patch=0,EE,200FFF84,extended,341B0083
+patch=0,EE,200FFF88,extended,001BDC38
+patch=0,EE,200FFF8C,extended,007B1825
+patch=0,EE,200FFF90,extended,34029301
+patch=0,EE,200FFF94,extended,FCC20000
+
+//Sharp Framebuffer Game Menu + movies + intro
+patch=0,EE,200FFF9C,extended,341B948C
+patch=0,EE,200FFFA0,extended,145B0002
+patch=0,EE,200FFFA8,extended,34029518
+patch=0,EE,200FFFAC,extended,FCC20000
+
+//Sharp Framebuffer Cutscenes + towns + Dungeons
+patch=0,EE,200FFFB4,extended,341B9480
+patch=0,EE,200FFFB8,extended,145B000C
+patch=0,EE,200FFFC0,extended,341BF3FF
+patch=0,EE,200FFFC4,extended,001BD83C
+patch=0,EE,200FFFC8,extended,377B3134
+patch=0,EE,200FFFCC,extended,001B1825
+patch=0,EE,200FFFD0,extended,341B001F
+patch=0,EE,200FFFD4,extended,001BDC3C
+patch=0,EE,200FFFD8,extended,007B1825
+patch=0,EE,200FFFDC,extended,341B0083
+patch=0,EE,200FFFE0,extended,001BDC38
+patch=0,EE,200FFFE4,extended,007B1825
+patch=0,EE,200FFFE8,extended,3402910C
+patch=0,EE,200FFFEC,extended,FCC20000
+patch=0,EE,200FFFF0,extended,03E00008 //Custom code block End
+
+//Sharp Framebuffer mips code assembly
+patch=0,EE,201221F8,word,0C03FFD7 // FCC20000 sd v0,0x0(a2)
+
+// Disable Alicia's shadows
+patch=1,EE,002b7c68,word,64010000
+
+// Disable the purple filter in the Lost Forest
+patch=1,EE,002e0bec,word,64030000
+
+// Disable the black borders
+patch=1,EE,00106d20,word,087facbc
+patch=1,EE,00106d24,word,00000000
+patch=1,EE,01feb2f0,word,8e4200ac
+patch=1,EE,01feb2f4,word,24040002
+patch=1,EE,01feb2f8,word,3c080037
+patch=1,EE,01feb2fc,word,8d09d42c
+patch=1,EE,01feb300,word,3c0a0c10
+patch=1,EE,01feb304,word,354ac2b4
+patch=1,EE,01feb308,word,112a0005
+patch=1,EE,01feb30c,word,0000582d
+patch=1,EE,01feb310,word,3c0b0044
+patch=1,EE,01feb314,word,3c0c2403
+patch=1,EE,01feb318,word,358c0000
+patch=1,EE,01feb31c,word,ad6c29b0
+patch=1,EE,01feb320,word,08041b4a
+patch=1,EE,01feb324,word,00000000

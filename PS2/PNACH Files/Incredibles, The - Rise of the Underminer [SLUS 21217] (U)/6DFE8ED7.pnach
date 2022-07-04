@@ -1,0 +1,11 @@
+gametitle=Incredibles, The - Rise of the Underminer [SLUS 21217] (U)
+comment= Patch By Prafull
+// fix hang at loading screen
+patch=1,EE,001110e0,word,00000000
+
+
+
+
+
+
+

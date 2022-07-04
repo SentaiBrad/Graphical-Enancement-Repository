@@ -1,0 +1,6 @@
+gametitle=TOCA Race Driver 3 (U)(SLUS-21182)
+gametitle=TOCA Race Driver 3 (E)(SLES-53087)
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,004647a0,word,24020002 //30420003
+

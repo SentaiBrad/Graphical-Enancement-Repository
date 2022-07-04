@@ -1,0 +1,5 @@
+gametitle=Monopoly (U)(SLUS-21753)
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,003eb080,word,24020002 //30420003
+

@@ -1,0 +1,57 @@
+gametitle=Gran Turismo 4 SCUS_973.28;1) Game CRC = 0x77E61C8A
+comment=enhacement test
+
+I dont like this code, so i refactored / update the code with framebuffer display code integrated in all resolutions and HW, SW with next caveats:
+*Menus and videos code for no interleacing in 480p, 480i and 1080i OK
+*Framebuffer is enabled in realtime gameplay with L3 (on) R3 (off) , press R3 is you see garbled graphics or black screen.
+*Framebuffer display is glichy, recomended autoboot mode 480p (enabled in pnach, can be disabled, read pnach notes)
+*Framebuffer in 480p looks better NO HUD, but sometimes glich or black screen (press R3)
+*Framebuffer in NTSC mode glich more also, DX11 looks dark in OGL ok
+*Framebuffer in 1080i display only show HUD transparency
+- also i find autoboot in widescreen but only enable menus gameplay still 4:3, so is better you enable in options and save. i hope gt4 fan enjoy this for some replays or clean image. 
+
+//Autoboot mode NTSC=0 / 480p=1 / 1080i=2 (change last number) or disable this code.
+patch=1,EE,20A461F0,extended,00000001
+
+//NTSC
+patch=1,EE,E0060000,extended,00A461F0
+patch=1,EE,D0620240,extended,00000000
+patch=1,EE,204A0C9C,extended,3402948C
+patch=1,EE,D0620240,extended,00000002
+patch=1,EE,204AB494,extended,30420000
+patch=1,EE,D0620240,extended,00000000
+patch=1,EE,204AB494,extended,30420001
+
+//480p
+patch=1,EE,E0020001,extended,00A461F0
+patch=1,EE,D0620240,extended,00000000
+patch=1,EE,204A0C9C,extended,3402948C
+
+//1080i
+patch=1,EE,E0060002,extended,00A461F0
+patch=1,EE,D0620240,extended,00000000
+patch=1,EE,204A0C9C,extended,3402948C
+patch=1,EE,D0620240,extended,00000002
+patch=1,EE,204AB494,extended,30420000
+patch=1,EE,D0620240,extended,00000000
+patch=1,EE,204AB494,extended,30420001
+
+//FrameBuffer
+patch=1,EE,D064C794,extended,0000FFFD // Fb on  L3
+patch=1,EE,204A0C9C,extended,340294D2
+patch=1,EE,D064C794,extended,0000FFFB // Fb off R3
+patch=1,EE,204A0C9C,extended,DD020068
+
+patch=1,EE,E0040000,extended,00A461F0
+patch=1,EE,D064C794,extended,0000FFFD
+patch=1,EE,204A0C8C,extended,34030002 // Fb on
+patch=1,EE,D064C794,extended,0000FFFB
+patch=1,EE,204A0C8C,extended,DD030060 // Fb off
+
+patch=1,EE,E0040001,extended,00A461F0 // Fb on  L3
+patch=1,EE,D064C794,extended,0000FFFD 
+patch=1,EE,204AB494,extended,30420001
+
+patch=1,EE,E0020002,extended,00A461F0
+patch=1,EE,D064C794,extended,0000FFFD // Fb on  L3
+patch=1,EE,204A0C9C,extended,340212D8

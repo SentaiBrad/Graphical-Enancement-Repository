@@ -1,0 +1,6 @@
+gametitle=World heroes gorgeous SELECT.ELF;1) Game CRC = 0x8E82B882
+comment=No interleacing + progressive 240p test 2 - ISO patch use PS2 Patch engine
+
+patch=1,EE,20213554,extended,3c050000
+patch=1,EE,2021355C,extended,3c060050
+patch=1,EE,20213564,extended,3c070001

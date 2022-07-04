@@ -1,0 +1,5 @@
+gametitle=Transformers - The Game (U)(SLUS-21602)
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,0043e3c8,word,24020002 //30420003
+

@@ -1,0 +1,4 @@
+gametitle=Indiana Jones and the Staff of Kings (U)(SLUS-21885)
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,0013de20,word,24020002 //30420003

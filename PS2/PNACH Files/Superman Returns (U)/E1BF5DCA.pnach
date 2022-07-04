@@ -1,0 +1,5 @@
+gametitle=Superman Returns (U)(SLUS-21434)
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,0035ab48,word,24020002 //30420003
+

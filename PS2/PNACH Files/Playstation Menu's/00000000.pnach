@@ -1,0 +1,3 @@
+Playstation Boot Screen & Main Menu
+
+patch=1,EE,2026E20C,extended,64420000

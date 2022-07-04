@@ -1,0 +1,6 @@
+Grafiti Kingdom (U)
+CRC - EF5B6ADD
+
+//Remove Blur
+//Note: missing increasing draw distance hack 
+patch=1,EE,005A6A30,word,00000000

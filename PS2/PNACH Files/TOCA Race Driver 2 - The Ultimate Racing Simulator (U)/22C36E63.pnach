@@ -1,0 +1,5 @@
+gametitle=TOCA Race Driver 2 - The Ultimate Racing Simulator (U)(SLUS-21039)
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,0041bd10,word,24020002 //30420003
+

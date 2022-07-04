@@ -1,0 +1,5 @@
+gametitle=TOCA Race Driver 2 - The Ultimate Racing Simulator (J)(SLPM-66498)
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,0036cfa8,word,24020002 //30420003
+

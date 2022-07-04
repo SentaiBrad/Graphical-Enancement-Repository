@@ -1,0 +1,23 @@
+gametitle=King of Fighters Nest N1999.ELF;1) Game CRC = 0x9FACED85
+comment=No interleacing + SDTV progressive scan test 2 - ISO patch use PS2 Patch engine
+
+//SDTV progressive mode neo-geo versions - (for iso patch N1999.ELF, N2000.ELF, N2001.ELF)
+patch=1,EE,E0030022,extended,0010011C // *no for iso patch
+patch=1,EE,2010098C,extended,3c050000
+patch=1,EE,20100994,extended,3c060050
+patch=1,EE,2010099C,extended,3c070001
+
+//Main intro + vid + games - (ISO PATCH SLPS_256.61)
+patch=1,EE,E009001A,extended,0010011C // *no for iso patch
+patch=1,EE,20105b04,extended,3c060050
+patch=1,EE,20105b0c,extended,3c070001
+patch=1,EE,20105E74,extended,24020002
+patch=1,EE,20105E78,extended,24020002
+patch=1,EE,20107900,extended,03E00008
+patch=1,EE,20107904,extended,00000000
+patch=1,EE,20107B68,extended,03E00008
+patch=1,EE,20107B6C,extended,00000000
+patch=1,EE,2030DFB8,extended,34860002
+
+
+//patch=1,EE,20105afc,extended,3c050000 // crash kof99 video

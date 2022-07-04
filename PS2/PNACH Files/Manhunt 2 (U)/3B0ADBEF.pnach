@@ -1,0 +1,8 @@
+gametitle=Manhunt 2 (U)(SLUS-21613)
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,003bb488,word,24020002 //30420003
+
+
+//patch=1,EE,204C2428,extended,00000001 //Subtitles ON
+//patch=1,EE,204C244C,extended,00000001 //Widescreen ON

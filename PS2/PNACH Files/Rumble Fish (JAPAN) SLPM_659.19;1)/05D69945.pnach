@@ -1,0 +1,18 @@
+gametitle=Rumble Fish SLPM_659.19;1) Game CRC = 0x05D69945
+comment=Enhacement test resolution 640x448 to 640x480
+
+//Framebuffer + 480p mode + No interleacing
+patch=0,EE,201102A4,extended,3C050000
+patch=0,EE,201102AC,extended,3C060050
+patch=0,EE,201102B4,extended,3C070001
+patch=0,EE,20110948,extended,34030002
+patch=1,EE,2034FD50,extended,00009446
+patch=1,EE,2034FD5C,extended,001DF4FF
+patch=1,EE,2034FD78,extended,00009446
+patch=1,EE,2034FD84,extended,001DF4FF
+
+//Null Int ints
+patch=0,EE,20111278,extended,03E00008
+patch=0,EE,2011127C,extended,00000000
+patch=0,EE,201114E0,extended,03E00008
+patch=0,EE,201114E4,extended,00000000

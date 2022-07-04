@@ -1,0 +1,8 @@
+gametitle=NASCAR '08 (U)(SLUS-21639)
+comment=Force turn on Native Widescreen (Full boot passing) by Arapapa
+
+patch=1,EE,002cac78,word,24020002 //30420003
+patch=1,EE,002cb2f0,word,24020002 //30420003
+patch=1,EE,002cc670,word,24020002 //30420003
+patch=1,EE,003b9460,word,24020002 //30420003
+
