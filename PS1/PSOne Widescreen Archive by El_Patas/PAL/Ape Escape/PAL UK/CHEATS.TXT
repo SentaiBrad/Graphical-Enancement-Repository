@@ -1,0 +1,13 @@
+Widescreen hack by ShaolinAssassin
+$SAFEMODE
+
+#Ape Escape [PAL-UK] (SCES-01564)
+Comment=Kudos to ElPatas for PAL España version - saved me time ;).
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800AF050 0C00
+
+//Eyefinity
+//800AF050 0400

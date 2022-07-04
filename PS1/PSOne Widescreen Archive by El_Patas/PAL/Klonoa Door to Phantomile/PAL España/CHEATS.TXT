@@ -1,0 +1,14 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Klonoa: Door to Phantomile [PAL-Spain] (SCES-01188)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8010A298 0C00 //Background
+800BEDC2 0C00 //2D Main character
+
+//Eyefinity
+//8010A298 0400 //Background
+//800BEDC2 0400 //2D Main character

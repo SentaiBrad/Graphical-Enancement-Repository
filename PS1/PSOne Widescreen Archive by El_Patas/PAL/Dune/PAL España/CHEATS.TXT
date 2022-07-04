@@ -1,0 +1,16 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Dune [PAL-España] (SLES-02250)
+Comment=Causes glitches and slowdown in all the FMV videos.
+Comentario=Causa errores gráficos y ralentizaciones en todos los vídeos FMV.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80183058 0C00 //Background
+80183018 1558 //Cursor
+
+//Eyefinity
+//80183058 0400 //Background
+//80183018 4000 //Cursor

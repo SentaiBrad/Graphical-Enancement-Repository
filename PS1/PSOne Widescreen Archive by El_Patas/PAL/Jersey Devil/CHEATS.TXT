@@ -1,0 +1,23 @@
+Widescreen hack by Paul_met
+$SAFEMODE
+
+#Jersey Devil [PAL] (SLES-00598)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800507f8 0C00
+
+----------------------------------------------------------------------------------------
+HEXADECIMAL VALUES
+----------------------------------------------------------------------------------------
+
+File: "MAIN.EXE"
+Offset / Value
+3EDF8  000C
+
+Extract the executable file of the game (SLUS, SLES, SLPM, etc), change the value,
+and insert the file back to the CD image exclusively using the CDMage tool.
+
+
+

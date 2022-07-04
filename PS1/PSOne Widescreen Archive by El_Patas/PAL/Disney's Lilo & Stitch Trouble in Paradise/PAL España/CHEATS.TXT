@@ -1,0 +1,12 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Disney Lilo & Stitch en Problemas en el Paraiso [PAL-Spain] (SCES-03875)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800CE964 0C00
+
+//Eyefinity
+//800CE964 0400

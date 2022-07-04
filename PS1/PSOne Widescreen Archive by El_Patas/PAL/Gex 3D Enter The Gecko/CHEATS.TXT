@@ -1,0 +1,31 @@
+Widescreen hack by darkludx
+$SAFEMODE
+
+#Gex 3D: Enter The Gecko [PAL] (SLES-00596)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+800424AC 0C00
+800424BC 0034
+800424BE AFA0
+800424C0 1000
+800424C2 2403
+
+----------------------------------------------------------------------------------------
+HEXADECIMAL VALUES
+----------------------------------------------------------------------------------------
+
+File: "SLES_005.96"
+Offset / Value
+32CAC 000C
+32CBC 3400A0AF
+32CC0 00100324
+
+Extract the executable file of the game (SLUS, SLES, SLPM, etc), change the value,
+and insert the file back to the CD image exclusively using the CDMage tool.
+CDMage corrects ECC/ EDC of the image. If patching the image directly by hexeditor, 
+then the data will be different with the information in the EDC / ECC blocks. 
+Otherwise this can cause errors when running any verification of conformity.
+
+

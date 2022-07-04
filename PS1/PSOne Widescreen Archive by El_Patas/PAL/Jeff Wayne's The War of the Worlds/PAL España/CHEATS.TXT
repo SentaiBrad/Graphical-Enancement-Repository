@@ -1,0 +1,12 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Jeff Wayne's: The War of the Worlds [PAL-Spain] (SLES-01986)
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+801E35B0 0C00
+
+//Eyefinity
+//801E35B0 0400

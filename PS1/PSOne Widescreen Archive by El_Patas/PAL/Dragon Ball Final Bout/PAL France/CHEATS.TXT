@@ -1,0 +1,22 @@
+Widescreen hack by krHACKen
+$SAFEMODE
+
+#Dragon Ball: Final Bout [PAL-FR] (SLES-00964)
+----------------------------------------------------------------------------------------
+GAMESHARK CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+8002219C 0C00
+
+//Eyefinity
+//8002219C 0400
+
+//Widescreen
+//8003BD88 0C00
+
+//Ultra Widescreen
+//8003BD88 0C00
+//8003BDF0 1400
+//8003BE00 1400
+
+

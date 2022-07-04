@@ -1,0 +1,14 @@
+Widescreen hack by El_Patas [España]
+$SAFEMODE
+
+#Bloody Roar 2: Bringer of the New Age [PAL] (SLES-01722)
+Comment=The game has 3 widescreen modes that not even one is correct, use that one instead.
+Comentario=El juego tiene 3 opciones de pantalla panorámica pero ninguna es correcta.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+801F0270 1333
+
+//Eyefinity
+//801F0270 0666

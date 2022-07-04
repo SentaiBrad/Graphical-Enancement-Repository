@@ -1,0 +1,27 @@
+Widescreen hack by Esppiral (Gameshark) & FlatOut (Hexadecimal)
+$SAFEMODE
+
+#Crash Bandicoot 3: Warped [PAL] (SCES-01420)
+Comment=Needs render fix.
+Comentario=Necesita corrección renderizado.
+----------------------------------------------------------------------------------------
+GAMESHARK/ACTION REPLAY CODES by Esppiral
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+80018B48 0C00
+80018B4A 2402
+80018B4C 1000
+80018B4E 2413
+80018B6A A633
+
+----------------------------------------------------------------------------------------
+HEXADECIMAL VALUES by FlatOut 
+----------------------------------------------------------------------------------------
+//Widescreen 16:9
+
+Search:
+32F1000C 23200400 A0FF5126 23181000 A0FF42A6 020023A6 040020A6 060030A6 080022
+Replace:
+000C0224 00101324 A0FF5126 23181000 A0FF42A6 020023A6 040020A6 060030A6 080033
+
+
