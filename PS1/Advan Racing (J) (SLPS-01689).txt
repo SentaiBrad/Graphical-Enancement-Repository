@@ -1,0 +1,9 @@
+Advan Racing (J) (SLPS-01689)
+
+
+//60 FPS
+01C4F6A 0000
+
+//60 FPS Alt
+//Potentially more accurate
+8017B234 0105 

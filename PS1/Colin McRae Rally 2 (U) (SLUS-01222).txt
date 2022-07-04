@@ -1,0 +1,6 @@
+Colin McRae Rally 2 (U) (SLUS-01222)
+
+
+
+//60 FPS
+800499F8 00000001
