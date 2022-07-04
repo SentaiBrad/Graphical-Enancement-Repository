@@ -1,0 +1,15 @@
+gametitle=Tenchu Fatal Shadows PAL (Spain)
+comment=Nop Interleacing
+
+//pal to ntsc (speed up?)
+//patch=1,EE,001002B8,word,24120002
+//patch=1,EE,203F6B58,word,02048290 //memory range patch
+//patch=1,EE,203F6B80,word,02048290
+
+//nop interleacing
+patch=1,EE,001018D4,byte,00
+patch=1,EE,001381C8,byte,00
+
+//widescreen (from widescreen archive)
+patch=1,EE,0012ef24,word,3c023f40
+patch=1,EE,0012f738,word,3c02442b

@@ -1,0 +1,44 @@
+gametitle=Tekken 5 (Europe, Australia) (En,Fr,De,Es,It) SCES_532.02;1) Game CRC = 0x1F88BECD
+comment=re-enable progressive function - bypass interleacing - Sharp "back-front" buffer - v3 Enhancement By FelixThecat1970
+
+//in HW mode enable "special texture" (for missaligned effects) but PCSX2 has other graphic bugs still required (crc hack level "automatic") for disable buggy effects
+
+//in SW mode put CRC hack level to Debug (none) for show special effects
+
+//Main Game
+//re-enable progressive modes from USA/JAP versions) progressive native mode autobooot + sharp back-front framebuffer
+patch=1,EE,E009B0F0,extended,01FFEF20
+patch=1,EE,203039E4,extended,24060001
+patch=1,EE,20385DF8,extended,00000000
+patch=1,EE,20D6F8AC,extended,00000000
+patch=1,EE,2034B3FC,extended,34030000
+patch=1,EE,2034B5C0,extended,34040000
+patch=1,EE,2034B1C4,extended,34030000
+patch=1,EE,10330D90,extended,240601C0
+patch=1,EE,10330EA0,extended,240601C0 
+patch=1,EE,10331288,extended,240601C0
+
+patch=1,EE,E0030200,extended,0058E090 //memory
+patch=1,EE,1058E090,extended,0281
+patch=1,EE,00330AA4,extended,24020000
+patch=1,EE,00340BB0,extended,3C013F40 //w.s. Ported to PAL (elhecht) require wide option enabled in options
+
+patch=1,EE,E0063B70,extended,01FFEF20 // Devil Withing Game
+patch=1,EE,2022FE54,extended,340E0000
+patch=1,EE,002120C4,extended,24020000
+patch=1,EE,002121E4,extended,24020050
+patch=1,EE,102124E8,extended,240601C0
+patch=1,EE,2041F714,extended,3F400000 //Zoom+ by Arapapa - ported
+patch=1,EE,202AEED8,extended,3FDDA51A //Y-Fov 3FA63BD8 by Arapapa - ported
+
+patch=1,EE,E002BDF0,extended,01FFEF20 // Tek 1 sdtv mode 240p
+patch=1,EE,2014CBB4,extended,3C050000
+patch=1,EE,2014CBBC,extended,3C060050
+
+patch=1,EE,E0023B70,extended,01FFEF20 // Tek 2 sdtv mode 240p
+patch=1,EE,2015CD74,extended,3C050000
+patch=1,EE,2015CD7C,extended,3C060050
+
+patch=1,EE,E00230F0,extended,01FFEF20 // Tek 3 sdtv mode 480p extended
+patch=1,EE,201E24F4,extended,3C050000
+patch=1,EE,201E24FC,extended,3C060050
