@@ -1,0 +1,104 @@
+gametitle=Alone in the Dark 4 (PAL-M5) (SLES-50185) Game CRC = 0x1E811D9A
+comment=fix screen values (felixthecat1970)
+
+//Videos nop interleacing
+patch=0,EE,003062C4,byte,00
+
+//New Code NTSC 60hz 640x480 (select 60HZ mode in start screen)
+patch=0,EE,003062F4,word,3C0701E0
+patch=0,EE,003065D0,word,34030003
+
+//New Code PAL 50hz 640x576 (select 50HZ mode in start screen) - disable above code first
+//patch=0,EE,003062F4,word,3c070240
+//patch=0,EE,003065D0,word,34030003
+
+//(old code) NTSC 60hz Mode 640x480 select 60hz mode in main screen (display2 register changed to NTSC Documented Values)
+//patch=1,EE,2064C778,byte,03 //02 SMODE2
+//patch=1,EE,2064C7A0,byte,03 //02 SMODE2
+//patch=1,EE,204AC608,extended,02048290 //02048290 DISPLAY2
+//patch=1,EE,204AC60C,extended,001FF9FF //001BF9FF DISPLAY2
+//patch=1,EE,204AC630,extended,02048290 //02048290 DISPLAY2
+//patch=1,EE,204AC634,extended,001FF9FF //001BF9FF DISPLAY2
+//patch=1,EE,2064C788,extended,0183228C //01824290 DISPLAY2
+//patch=1,EE,2064C78C,extended,001DF9FF //0011F9FF DISPLAY2
+//patch=1,EE,2064C7B0,extended,0183228C //01824290 DISPLAY2
+//patch=1,EE,2064C7B4,extended,001DF9FF //0011F9FF DISPLAY2
+
+//(old code) PAL 50HZ Mode 640x576 > select 50hz mode in main screen (display2 register changed to PAL Documented Values
+//patch=1,EE,2064C778,byte,03 //2 SMODE2
+//patch=1,EE,2064C7A0,byte,03 //2 SMODE2
+//patch=1,EE,204AC60C,extended,001FF9FF //001BF9FF DISPLAY2
+//patch=1,EE,204AC634,extended,001FF9FF //001BF9FF DISPLAY2
+//patch=1,EE,2064C788,extended,018482A8 //01824290 DISPLAY2
+//patch=1,EE,2064C78C,extended,0022F9FF //0011F9FF DISPLAY2
+//patch=1,EE,2064C7B0,extended,018482A8 //01824290 DISPLAY2
+//patch=1,EE,2064C7B4,extended,0022F9FF //0011F9FF DISPLAY2
+
+//Analog stick support
+patch=1,EE,0030788c,word,0803f414
+patch=1,EE,000fd050,word,00c0c821
+patch=1,EE,000fd054,word,080c1e25
+patch=1,EE,000fd058,word,24030070
+patch=1,EE,003078fc,word,0803f417
+patch=1,EE,000fd05c,word,87240002
+patch=1,EE,000fd060,word,3085ff0f
+patch=1,EE,000fd064,word,9326000a
+patch=1,EE,000fd068,word,93270009
+patch=1,EE,000fd06c,word,9328000b
+patch=1,EE,000fd070,word,93290008
+patch=1,EE,000fd074,word,932a0007
+patch=1,EE,000fd078,word,932b0006
+patch=1,EE,000fd07c,word,34a30010
+patch=1,EE,000fd080,word,2d410041
+patch=1,EE,000fd084,word,0061280a
+patch=1,EE,000fd088,word,3943007f
+patch=1,EE,000fd08c,word,00031840
+patch=1,EE,000fd090,word,2d41007f
+patch=1,EE,000fd094,word,0001180a
+patch=1,EE,000fd098,word,a323000a
+patch=1,EE,000fd09c,word,34a30080
+patch=1,EE,000fd0a0,word,2d610041
+patch=1,EE,000fd0a4,word,0061280a
+patch=1,EE,000fd0a8,word,3963007f
+patch=1,EE,000fd0ac,word,00031840
+patch=1,EE,000fd0b0,word,2d61007f
+patch=1,EE,000fd0b4,word,0001180a
+patch=1,EE,000fd0b8,word,a3230009
+patch=1,EE,000fd0bc,word,34a30040
+patch=1,EE,000fd0c0,word,2d4100bf
+patch=1,EE,000fd0c4,word,0061280b
+patch=1,EE,000fd0c8,word,2543ff80
+patch=1,EE,000fd0cc,word,00031840
+patch=1,EE,000fd0d0,word,2d410081
+patch=1,EE,000fd0d4,word,0001180b
+patch=1,EE,000fd0d8,word,a323000b
+patch=1,EE,000fd0dc,word,34a30020
+patch=1,EE,000fd0e0,word,2d6100bf
+patch=1,EE,000fd0e4,word,0061280b
+patch=1,EE,000fd0e8,word,2563ff80
+patch=1,EE,000fd0ec,word,00031840
+patch=1,EE,000fd0f0,word,2d610081
+patch=1,EE,000fd0f4,word,0001180b
+patch=1,EE,000fd0f8,word,a3230008
+patch=1,EE,000fd0fc,word,340c0080
+patch=1,EE,000fd100,word,340d0080
+patch=1,EE,000fd104,word,932a0005
+patch=1,EE,000fd108,word,932b0004
+patch=1,EE,000fd10c,word,00060842
+patch=1,EE,000fd110,word,3821007f
+patch=1,EE,000fd114,word,0026600b
+patch=1,EE,000fd118,word,00070842
+patch=1,EE,000fd11c,word,3821007f
+patch=1,EE,000fd120,word,0027680b
+patch=1,EE,000fd124,word,00080842
+patch=1,EE,000fd128,word,24230080
+patch=1,EE,000fd12c,word,0068600b
+patch=1,EE,000fd130,word,00090842
+patch=1,EE,000fd134,word,24230080
+patch=1,EE,000fd138,word,0069680b
+patch=1,EE,000fd13c,word,a7250002
+patch=1,EE,000fd140,word,a32a0007
+patch=1,EE,000fd144,word,a32b0006
+patch=1,EE,000fd148,word,a32c0005
+patch=1,EE,000fd14c,word,03e00008
+patch=1,EE,000fd150,word,a32d0004

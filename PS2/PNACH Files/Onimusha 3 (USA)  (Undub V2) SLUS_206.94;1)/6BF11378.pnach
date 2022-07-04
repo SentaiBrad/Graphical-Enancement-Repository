@@ -1,0 +1,44 @@
+gametitle=Onimusha 3 (USA) / (Undub V2) SLUS_206.94;1) Game CRC = 0x6BF11378
+comment=enhacements by felixthecat1970
+
+//finetune missaligment effects x:200 y:200 or special texture
+//enable round sprite half for menu lines fix (use withow above option)
+
+//disable ef. gameplay
+patch=1,EE,E0010E0A,extended,00A28180
+patch=1,EE,00A28180,extended,00
+
+//disable expensive ef some c.scenes 
+patch=1,EE,E0010D04,extended,00A28180
+patch=1,EE,00A28180,extended,00
+
+//disable expensive dof ef some c.scenes 
+patch=1,EE,E0010D0C,extended,00A28380
+patch=1,EE,00A28380,extended,00
+
+patch=1,EE,E0010D04,extended,00A28380
+patch=1,EE,00A28380,extended,00
+
+//nopi (load menu - videos still shake)
+patch=0,EE,2027AD9C,extended,34037900 //asasega
+
+//Widescreen correction by nemesis2000 (pnach by nemesis2000)
+//gameplay
+
+//val1
+patch=0,EE,20151320,extended,3C033F19
+patch=0,EE,20151328,extended,34639999
+
+//val2
+patch=0,EE,20151380,extended,3C023F19
+patch=0,EE,20151384,extended,34439999
+
+//val3
+patch=0,EE,201514d8,extended,3C033F19
+patch=0,EE,201514e0,extended,34639999
+
+//rfix1
+patch=0,EE,20151550,extended,3C02C3D6
+
+//rfix2
+patch=0,EE,20151440,extended,3C024527

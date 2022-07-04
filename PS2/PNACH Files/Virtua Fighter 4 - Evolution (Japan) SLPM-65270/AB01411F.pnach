@@ -1,0 +1,40 @@
+gametitle=Virtua Fighter 4 - Evolution (Japan) SLPM-65270 CRC=AB01411F
+comment=Progressive mode + nop interleacing (felixthecat1970) + (widescreen included) 
+
+//Progressive mode + nop interleacing
+patch=0,EE,200FFF98,extended,341B10E0
+patch=0,EE,200FFF9C,extended,145B0002
+patch=0,EE,200FFFA0,extended,00000000
+patch=0,EE,200FFFA4,extended,34021070
+patch=0,EE,200FFFA8,extended,FCC20000
+patch=0,EE,200FFFAC,extended,00000000
+patch=0,EE,200FFFB0,extended,341B1000
+patch=0,EE,200FFFB4,extended,145B0002
+patch=0,EE,200FFFB8,extended,00000000
+patch=0,EE,200FFFBC,extended,34021040
+patch=0,EE,200FFFC0,extended,FCC20000
+patch=0,EE,200FFFC4,extended,00000000
+patch=0,EE,200FFFC8,extended,341B1400
+patch=0,EE,200FFFCC,extended,145B0002
+patch=0,EE,200FFFD0,extended,00000000
+patch=0,EE,200FFFD4,extended,34021450
+patch=0,EE,200FFFD8,extended,FCC20000
+patch=0,EE,200FFFDC,extended,00000000
+patch=0,EE,200FFFE0,extended,341B1518
+patch=0,EE,200FFFE4,extended,145B0002
+patch=0,EE,200FFFE8,extended,00000000
+patch=0,EE,200FFFEC,extended,3402148C
+patch=0,EE,200FFFF0,extended,FCC20000
+patch=0,EE,200FFFF4,extended,03E00008
+
+patch=0,EE,001008D0,word,0C03FFE6
+patch=0,EE,00100214,word,3C050000
+patch=0,EE,0010021C,word,3C060050
+patch=0,EE,00100224,word,3C070001
+
+// 16:9 Widescreen hack by ElHecht (NTSC-J by Arapapa) - widescreen archive
+patch=1,EE,002fb184,word,3c194455 // 3c034420 hor fov
+patch=1,EE,002fb18c,word,37395555 // 44830800 hor fov
+patch=1,EE,002fb1a4,word,44990800 // 00000000
+patch=1,EE,00214918,word,3c024456 // 3c024420 renderfix
+

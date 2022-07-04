@@ -1,0 +1,20 @@
+gametitle=Simple 2000 Series Vol. 90 - The OneeChambara 2 (Japan) SLPS_204.44;1) Game CRC = 0x7E9FD243
+comment=Enhacement test by felixthecat1970
+
+//HW upscaling 2x+ enable HW hacks2 > Texture Offsets X:500 / Y:500
+
+//Nop interleacing
+patch=0,EE,0021E7D0,extended,00
+
+//No hud R1+L3=Off - L3=On
+patch=1,EE,D040EAC2,extended,F7FD
+patch=1,EE,0027B3A0,extended,00
+patch=1,EE,D040EAC2,extended,FFFD
+patch=1,EE,0027B3A0,extended,03
+
+////Progressive 224p field rendered game(videos is disabled)
+//patch=0,EE,20234D5C,extended,3C050000
+//patch=0,EE,20234D64,extended,3C060050
+//patch=0,EE,20234D6C,extended,3C070001
+//patch=0,EE,20239B08,extended,24020001
+

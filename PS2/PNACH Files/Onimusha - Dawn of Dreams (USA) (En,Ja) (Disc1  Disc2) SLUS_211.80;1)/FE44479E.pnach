@@ -1,0 +1,57 @@
+gametitle=Onimusha - Dawn of Dreams (USA) (En,Ja) SLUS_211.80;1) Game CRC = 0xFE44479E
+comment=ipu hack Kozarov - enhacements Felixthecat1970
+
+// Set IPU_DATA IVF to Intra
+patch=0,EE,203BFDD8,extended,3C040020
+
+// Set IPU_CMD to IDEC, and set QSC to 2
+// Why 2? Because it seems to work best.
+patch=0,EE,203BFDEC,extended,3C021002
+
+// Old patch by shadow lady (still needed) (included pcsx2 GameIndex.yaml)
+//patch=0,EE,00104170,extended,00000000
+
+// Disable print - we need that loop!
+// Without loop ipu break itself.
+patch=0,EE,2010FDC8,extended,34190180
+patch=0,EE,2010FDCC,extended,1720FFFF
+patch=0,EE,2010FDD0,extended,2739FFFF
+patch=0,EE,2010FDD4,extended,03E00008
+patch=0,EE,2010FDD8,extended,00000000
+
+//nop interleacing
+patch=1,EE,20178424,extended,00001825 //asasega
+
+//ef disable test codes
+patch=1,EE,E0010E0A,extended,0084F480 //unk
+patch=1,EE,0084F480,extended,00
+
+patch=1,EE,E0010D03,extended,0084A200 //df
+patch=1,EE,0084A200,extended,00
+
+patch=1,EE,E0010D05,extended,0084FC80 //df sce
+patch=1,EE,0084FC80,extended,00
+
+patch=1,EE,E0010D05,extended,0084F880 //df sce 2
+patch=1,EE,0084F880,extended,00
+
+//Widescreen correction by nemesis2000 (pnach by nemesis2000)
+//gameplay
+
+//val1
+patch=0,EE,2012F960,extended,3C033F19
+patch=0,EE,2012F968,extended,34649999
+
+//val2
+patch=0,EE,2012FB38,extended,3C033F19
+patch=0,EE,2012FB40,extended,34639999
+
+//val3
+patch=0,EE,2012F9C8,extended,3C023F19
+patch=0,EE,2012F9CC,extended,34439999
+
+//rfix1
+patch=0,EE,2012FBB0,extended,3C02C3D6
+
+//rfix1
+patch=0,EE,2012FAA0,extended,3C024527

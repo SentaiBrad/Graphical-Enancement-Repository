@@ -1,0 +1,5 @@
+Rogue Hearts Dungeon (J)
+CRC - CFDA79BE
+
+//deinterlacing
+patch=1,EE,00113554,word,30420000 

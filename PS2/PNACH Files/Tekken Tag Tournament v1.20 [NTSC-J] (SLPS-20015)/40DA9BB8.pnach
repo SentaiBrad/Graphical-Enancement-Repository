@@ -1,0 +1,5 @@
+Tekken Tag Tournament v1.20 [NTSC-J] (SLPS-20015)
+CRC=40DA9BB8
+
+//deinterlacing
+patch=1,EE,20455E6C,word,30420000 

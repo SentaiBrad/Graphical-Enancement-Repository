@@ -1,0 +1,27 @@
+gametitle=Shinobido - Way of the Ninja (Europe) (En,Fr,De,Es,It) SCES_539.31;1) Game CRC = 0x96CE136B
+comment=Enhacement Codes + Pal to Progressive mode v1 by felixthecat1970
+
+//PAL to Progressive mode + clean image + logos nopi
+patch=0,EE,202C1D3C,extended,3C060050
+patch=0,EE,202C1D44,extended,3C070001
+patch=0,EE,202C23D8,extended,34030002
+patch=0,EE,002C379C,extended,00
+patch=0,EE,1013C7D4,extended,3F55
+patch=0,EE,10299974,extended,3F55
+patch=0,EE,1038A600,extended,3F55
+patch=0,EE,103FB4E4,extended,3F55 //Speed code main?
+patch=0,EE,10480ABC,extended,3F55
+patch=0,EE,10481220,extended,3F55
+patch=0,EE,104D95E8,extended,3F55
+patch=0,EE,106170F4,extended,3F55
+//patch=0,EE,10322f84,extended,3A00 //Realtime Cutscenes Sharp Image
+
+//60 fps shortcut R1+L3=On / L3=Off - cutscenes speedup - (performance hit)
+patch=1,EE,D0656A89,extended,02
+patch=1,EE,00625F20,extended,02
+patch=1,EE,D0656A89,extended,0802
+patch=1,EE,00625F20,extended,01
+
+//partial speed hook for 60fps mode - +10fps desync audio in realtime cutscenes (need find address)
+patch=1,EE,D0625E24,extended,9270 //hook
+patch=1,EE,00625F20,extended,02

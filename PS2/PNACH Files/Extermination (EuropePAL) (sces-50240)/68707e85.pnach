@@ -1,0 +1,10 @@
+Extermination (Europe/PAL) (sces-50240)
+CRC: 68707e85
+
+
+//skip video
+patch=1,EE,00109a38,word,24020001
+
+//deinterlacing
+patch=1,EE,00101614,word,00000000
+patch=1,EE,0010187c,word,00000000

@@ -1,0 +1,76 @@
+gametitle=Silent Hill 3 (USA) (En,Ja,Fr,De,Es,It,Ko) SLUS_206.22;1 Game CRC = 0x2498951B
+comment=Enhacement codes v2 by Felixthecat1970
+
+//progressive mode + extend native res 512x512 + nop interleacing videos v2
+patch=0,EE,0012BC88,extended,24060050
+patch=0,EE,0012BD04,extended,3C03001F //sf
+patch=0,EE,001CFF20,extended,3C03001F
+patch=0,EE,00337724,extended,3C01001F
+patch=0,EE,00337638,extended,64150002 //pmf
+patch=0,EE,20116630,extended,34030002 //pmf
+
+//nop i videos (disable partial workaround PCSX2 bug (video in HW))
+//for show videos in HW mode requiere change game to SW then back to HW mode F9
+//patch=0,EE,202B5AA8,extended,00000000
+
+//partial workaround PCSX2 bug (video in HW)
+patch=1,EE,E0040001,extended,01223270
+patch=1,EE,11223250,extended,1110 //memory
+patch=1,EE,0122325E,extended,1B
+patch=1,EE,11223278,extended,1110
+patch=1,EE,01223286,extended,1B
+
+//60 fps shortcut L3=On / R3=Off (performance hit)
+patch=1,EE,D035475C,extended,FFFD
+patch=1,EE,20130588,extended,34020001
+patch=1,EE,D035475C,extended,FFFB
+patch=1,EE,20130588,extended,8E220004
+
+//Auto enable Sharp Image option
+patch=1,EE,01ED4FE2,extended,01
+patch=1,EE,01ED5022,extended,01
+
+//16:9 (widescreen archive) - hack by nemesis2000
+patch=0,EE,201B4A64,extended,3C023F28
+patch=0,EE,201B4A68,extended,3442F5C3
+
+//remove cutscene black borders, and small vertical borders on left/right
+patch=0,EE,201EE320,extended,03E00008
+patch=0,EE,201EE324,extended,00000000
+
+//Items & Weapons and Supplies fix
+patch=0,EE,202AD978,extended,3C023F19
+patch=0,EE,202AD97C,extended,3442999A
+
+//FMV's fix
+patch=0,EE,102B60B8,extended,2550 //fmv height
+patch=0,EE,102B60A4,extended,6D50 //fmv y-pos
+patch=0,EE,002B61DC,extended,00 //fmv black borders
+patch=0,EE,002B61E4,extended,00 //fmv black borders
+
+patch=0,EE,102B60BC,extended,2000 //fmv height
+patch=0,EE,102B60A8,extended,7000 //fmv y-pos
+patch=0,EE,002B61FC,extended,00 //fmv black borders
+patch=0,EE,002B6200,extended,00 //fmv black borders
+
+//fog increase - (performance hit)
+//patch=1,EE,2036B12C,extended,3f800000 //3f666666
+
+//Test codes by felixthecat1970
+//Controller Map in 0035475C
+//zoom camera > camera in 203BF7C8 - 203C8A48
+//sharp image option
+//another 16:9 address
+//patch=1,EE,21E54680,extended,3F28F5C2
+//noise option 01F69FBA
+//lens flare intensity / lens flare values 2038A430
+//patch=1,EE,2038A66C,extended,40000000 //3f800000
+//patch=1,EE,2038A680,extended,40000000 //3f000000
+
+//zoom camera in 203BF7C8 - 203C8A48
+//patch=1,EE,203BF7C8,word,3f333333 //3f733333
+
+//video in HW mode for NTSC 60hz only codeblock
+//patch=1,EE,E0020001,extended,01223270
+//patch=1,EE,11223250,extended,1110 //memory
+//patch=1,EE,11223278,extended,1110

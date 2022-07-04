@@ -1,0 +1,71 @@
+gametitle=Silent Hill 2 - Saigo no Uta (Japan) (En,Ja) SLPM_650.98;1) Game CRC = 0x380D6782
+comment=Enhacement codes by Felixthecat1970
+
+//progressive mode + extend native res 512x512 + nop interleacing videos v2
+patch=0,EE,001A66D8,extended,24060050 //pr
+patch=0,EE,201FAA78,extended,34030002 //pr
+patch=0,EE,00196028,extended,28670000 //cb
+patch=0,EE,202AC97C,extended,00000000
+
+patch=1,EE,E002001F,extended,01229BCE //vf
+patch=1,EE,01229BCE,extended,1B
+patch=1,EE,01229BF6,extended,1B
+
+//Clearer Image Test Shortcut L3=On Select=Off (cutscenes bugs, no transitions,)
+patch=1,EE,E003FFFD,extended,0104C802
+patch=1,EE,102D4770,extended,9000
+patch=1,EE,102D4798,extended,9080
+patch=1,EE,102D47C0,extended,9100
+
+patch=1,EE,E003FFFE,extended,0104C802
+patch=1,EE,102D4770,extended,9080
+patch=1,EE,102D4798,extended,9100
+patch=1,EE,102D47C0,extended,9000
+
+//60 fps auto-manual shortcut L3=On / R3=Off (performance hit)
+patch=1,EE,D104C802,extended,FFFD
+patch=1,EE,201A6D3C,extended,34020001
+patch=1,EE,D104C802,extended,FFFB
+patch=1,EE,201A6D3C,extended,8C226AD0
+//patch=0,EE,201A6D3C,extended,34020001 //automatic on boot
+
+//Widescreen by nemesis2000 and synce (widescreen archive)
+//patch=1,EE,210DDF14,extended,43A8F5C2
+patch=0,EE,202D6730,extended,3F28F5C3 //3f6147ae
+patch=0,EE,20189B94,extended,3C034455 //3c034400 render fix
+
+//no black borders cutscenes - ported from US V.
+patch=0,EE,201BD674,extended,1000003A
+patch=0,EE,202D6730,extended,3F28F5C3 //hor asp
+
+//FMV's fix by nemesis2000
+patch=0,EE,202AD098,extended,24100004 //hor black border
+patch=0,EE,202AD09C,extended,24030004 //hor black border
+patch=0,EE,202AD07C,extended,340690B0 //bottom
+patch=0,EE,202AD04C,extended,3C026F50 //top
+
+//Item & Equipment Y-Fov
+//8042023c 00008244 00000000 02001446
+patch=0,EE,20217310,extended,3C0242AA //3c024280
+patch=0,EE,20217314,extended,3442AAAB //44820000
+patch=0,EE,20217314,extended,44820000 //00000000
+
+patch=0,EE,20217670,extended,3C0242AA //3c024280
+patch=0,EE,20217674,extended,3442AAAB //44820000
+patch=0,EE,20217678,extended,44820000 //00000000
+
+//Item Zoom
+//993e033c 9a996334 00008344
+patch=0,EE,201DAD4C,extended,3C033DAA //3c033e99
+patch=0,EE,201DAD50,extended,3463AAAB //3463999a
+patch=0,EE,201DADDC,extended,3C033DAA //3c033e99
+patch=0,EE,201DADE0,extended,3463AAAB //3463999a
+
+//Equipment Zoom
+//663f023c 66664234 00088244
+patch=0,EE,201DB298,extended,3C023F2C //3c023f66
+patch=0,EE,201DB29C,extended,3442CCCD //34426666
+
+//Test Codes
+//Widescreen new optional (hor 210F6914  ver 210F6918)
+//patch=1,EE,210F6914,extended,43A8F5C3

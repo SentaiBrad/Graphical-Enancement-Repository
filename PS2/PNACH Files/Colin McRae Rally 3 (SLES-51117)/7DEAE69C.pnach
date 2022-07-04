@@ -1,0 +1,6 @@
+Colin McRae Rally 3 (SLES-51117)
+CRC - 7DEAE69C
+
+//deinterlacing
+patch=1,EE,00246B90,word,24040001 // set FFMD to 0 in SMODE2 register to disable field mode
+patch=1,EE,00247A64,word,00000000 // nop the switch to the front buffer

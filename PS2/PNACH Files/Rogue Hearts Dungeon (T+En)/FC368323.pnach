@@ -1,0 +1,5 @@
+Rogue Hearts Dungeon (T+En)
+CRC - FC368323
+
+//deinterlacing
+patch=1,EE,00113554,word,30420000 

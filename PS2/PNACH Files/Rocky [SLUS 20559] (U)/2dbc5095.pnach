@@ -1,0 +1,7 @@
+gametitle=Rocky [SLUS 20559] (U)
+comment= Interlacing patch by Prafull
+//fix shaking issue ingame
+
+
+patch=1,EE,0010c624,word,00000000
+

@@ -1,0 +1,5 @@
+Mystic Nights (J)
+CRC - 2383B74A
+
+//No-Interlacing
+patch=1,EE,001011E4,word,30420000

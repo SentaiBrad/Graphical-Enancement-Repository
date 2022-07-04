@@ -1,0 +1,30 @@
+gametitle=Ace Combat 04 - Shattered Skies (USA) SLUS_201.52;1) Game CRC = 0xA32F7CD0
+comment=Progressive Func. + disable interleacing Func. + Sharp framebuffer v3 by
+
+felixthecat1970 + Transplanted from by nifengyxia
+
+//enable (Round sprite:Full) - Aling Sprite (for realtime cutscenes less vertical black
+
+lines)
+
+//progressive + disable interleacing fc. + sharp framebuffer v3 U
+patch=1,EE,00104620,word,34040000 //00002012
+patch=1,EE,001044b4,word,24050000 //24050001
+patch=1,EE,001044b8,word,24060050 //24060002
+
+patch=1,EE,00104e8c,word,24060050 //24060002
+patch=1,EE,00104e94,word,24050000 //24050001
+
+patch=1,EE,00261a44,word,14a20021 //14a2003a
+patch=1,EE,00261a48,word,24040050 //3c040041
+patch=1,EE,00261acc,word,10a0001a //1000001a
+patch=1,EE,00261af4,word,34020002 //00001012
+
+patch=1,EE,0010459c,word,340701c0 //84470076
+patch=1,EE,001044d0,word,240501c0 //240500e0
+patch=1,EE,0010a7f4,word,a4670076 //a4680076
+//patch=1,EE,00260e9c,word,240501c0 //240500e0
+patch=1,EE,00226e10,word,a6060076 //a6070076
+
+//widescreen fix aspect (also require screen ratio 16:9 to be enabled in options)
+patch=1,EE,0040dacc,word,441cf7ae //4440499a

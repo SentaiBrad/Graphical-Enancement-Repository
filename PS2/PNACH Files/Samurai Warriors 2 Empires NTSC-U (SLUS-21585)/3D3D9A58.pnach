@@ -1,0 +1,5 @@
+author=Michael
+gametitle=Samurai Warriors 2 Empires (SLUS-21585) 
+
+// no interlacing
+patch=1,EE,00102168,word,30420000

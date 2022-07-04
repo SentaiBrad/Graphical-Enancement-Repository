@@ -1,0 +1,15 @@
+Ico (SCES-50760)
+CRC - 5C991F4E
+
+//deinterlacing
+//set the back buffer
+patch=1,EE,2028F500,extended,00001040
+patch=1,EE,2028F528,extended,00001040
+//switch to the interlaced mode with FFMD set to 0. Progressive mode, applied by default,
+//does add a black bar at the bottom in the NTSC mode when the back buffer is enabled
+patch=1,EE,2028F4F8,extended,00000001
+patch=1,EE,2028F520,extended,00000001
+
+//check if the PAL mode is turned on to extend the display buffer from 256 to 512
+patch=1,EE,E0024290,extended,0028F508
+patch=1,EE,2028F50C,extended,001FF9FF

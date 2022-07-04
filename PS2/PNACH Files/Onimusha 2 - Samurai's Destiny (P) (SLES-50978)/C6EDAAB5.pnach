@@ -1,0 +1,10 @@
+//Onimusha 2 - Samurai's Destiny SLES 50978 PAL
+//no interlace PAL Port of pcsx480p60's JP
+patch=1,EE,017980FD,extended,00000000
+patch=1,EE,2010124C,extended,00000000
+patch=1,EE,20100FE4,extended,00000000
+patch=1,EE,2014D250,extended,24037900
+patch=1,EE,20184BE4,extended,00007025
+patch=1,EE,2019DB34,extended,24047900
+
+

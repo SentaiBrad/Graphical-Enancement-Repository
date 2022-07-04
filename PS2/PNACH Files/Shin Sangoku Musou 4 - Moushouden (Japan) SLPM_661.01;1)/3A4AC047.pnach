@@ -1,0 +1,25 @@
+gametitle=Shin Sangoku Musou 4 - Moushouden (Japan) SLPM_661.01;1) Game CRC = 0x3A4AC047
+comment=Enhacement Codes by Felixthecat1970
+
+//Use PCSX2 1.7 Dev builds - In HW mode Enable HW Hacks > Upscaling Hacks > Texture Offsets "Y:200" to fix upscaling bugs
+
+//nop interleacing gameplay
+patch=0,EE,00112B14,extended,00
+
+//Widescreen hack 16:9 (NTSC-J by Arapapa)
+//Zoom
+patch=1,EE,101472AC,extended,3C0243D6
+patch=1,EE,1019824C,extended,3C023F2B
+
+//Disable battle minimap L3=Off / R3=On 
+patch=1,EE,D036D69C,extended,FFFD
+patch=1,EE,1047EF75,extended,0100
+patch=1,EE,D036D69C,extended,FFFB
+patch=1,EE,1047EF75,extended,0101
+
+//Sharp framebuffer Menu
+patch=1,EE,E0040000,extended,0035D128
+patch=1,EE,004524E8,extended,01
+patch=1,EE,104524F0,extended,1038
+patch=1,EE,00452510,extended,01
+patch=1,EE,10452518,extended,1038

@@ -1,0 +1,5 @@
+The Adventures of Cookie & Cream
+CRC - 348CEAC4
+
+//No-Interlacing, except FMVs
+patch=1,EE,001DCD94,word,30420000

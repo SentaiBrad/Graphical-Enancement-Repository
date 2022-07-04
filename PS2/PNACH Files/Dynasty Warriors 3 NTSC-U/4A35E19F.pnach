@@ -1,0 +1,7 @@
+author=Michael
+gametitle=Dynasty Warriors 3 (NTSC-USA) (SLUS-20277)
+comment=Posted on Musou Warriors discord https://discord.gg/SpCw3vC
+
+// no interlacing
+patch=1,EE,001956DC,word,00000000
+patch=1,EE,00195944,word,00000000

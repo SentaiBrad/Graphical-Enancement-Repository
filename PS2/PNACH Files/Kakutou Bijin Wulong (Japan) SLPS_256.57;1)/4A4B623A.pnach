@@ -1,0 +1,21 @@
+﻿gametitle=Kakutou Bijin Wulong (Japan) SLPS_256.57;1) Game CRC = 0x4A4B623A
+comment=Enhacement
+
+//16:9 (widescreen archive) - missing menu item aspect ratio
+//patch=1,EE,203C9EB0,extended,3FE37FA9
+
+//Excessive blur and misaligned effect removal test + nop interleacing
+//in HW 2x up enable "disable screen effects" disable some screen effects (like crc hack) better use next advice
+//PCSX2 > Config > Video  (GS) > Pluging settings > "Enable HW Hacks" > Upscaling hacks > "half-pixel offset" to "Special texture"  
+//patch=0,EE,202255FC,extended,34020000 //disable screen effect - better no use
+patch=0,EE,202257A4,extended,34020000 //blur a
+patch=0,EE,20225A7C,extended,34020000 //blurr main
+patch=0,EE,20225CC4,extended,34020000 //blur a2
+patch=0,EE,0036B09C,extended,30620000
+
+//HUD hide with R1 + DPAD/Down - Select Button = show Hud / menu
+patch=1,EE,D0481702,extended,FFFE
+patch=1,EE,003C9034,extended,01
+patch=1,EE,D0481702,extended,F7BF
+patch=1,EE,003C9034,extended,00
+

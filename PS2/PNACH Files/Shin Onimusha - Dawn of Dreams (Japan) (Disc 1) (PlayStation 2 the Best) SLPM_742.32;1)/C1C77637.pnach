@@ -1,0 +1,50 @@
+gametitle=Shin Onimusha - Dawn of Dreams (Japan) (Disc 1) (PlayStation 2 the Best) SLPM_742.32;1) Game CRC = 0xC1C77637
+comment=Test Ipu Hack (Kozarov) - Enhacement by felixthecat1970
+
+// Set IPU_DATA IVF to Intra
+patch=0,EE,203C0468,extended,3C040020
+
+// Set IPU_CMD to IDEC, and set QSC to 2
+patch=0,EE,203C047C,extended,3C021002
+
+// Disable print console
+patch=0,EE,2010FDC8,extended,34190180
+patch=0,EE,2010FDCC,extended,1720FFFF
+patch=0,EE,2010FDD0,extended,2739FFFF
+patch=0,EE,2010FDD4,extended,03E00008
+patch=0,EE,2010FDD8,extended,00000000
+
+//workaround fix crash (this game version miss "shadow lady" workaround patch)
+patch=0,EE,20104190,extended,1440FFF9
+
+//sceGSVsync f? bypass f. - transition bugs with nopi code (test gameplay "counter" performance)
+//patch=0,EE,20103480,extended,00000000
+//patch=0,EE,2010343C,extended,00000000
+//patch=0,EE,2010346C,extended,30420000 //test nopi
+//patch=0,EE,20103490,extended,30440000 //test nopi
+
+//Effects test code (unknow register/value/effects bottleneck GS or GPU)
+patch=1,EE,E0010E0A,extended,0084FB00 //unk - recomended enabled
+patch=1,EE,0084FB00,extended,00
+
+patch=1,EE,E0010D03,extended,00850100 //df
+patch=1,EE,00850100,extended,00
+
+patch=1,EE,E0010D05,extended,0084FF00 //ef
+patch=1,EE,0084FF00,extended,00
+
+patch=1,EE,E0010D05,extended,00850300 //ef
+patch=1,EE,00850300,extended,00
+
+//no interleacing partial (menu background - videos still shake)
+patch=0,EE,20178454,extended,00001825
+
+//Widescreen hack 16:9 by nemesiss2000 (widescreen archive)
+patch=0,EE,2012F960,extended,3C033F19 //3c033f4c
+patch=0,EE,2012F968,extended,34649999 //3464cccd
+patch=0,EE,2012F9C8,extended,3C023F19 //3c023f4c
+patch=0,EE,2012F9CC,extended,34439999 //3443cccd
+patch=0,EE,2012FB38,extended,3C033F19 //3c033f4c
+patch=0,EE,2012FB40,extended,34639999 //3463cccd
+patch=0,EE,2012FBB0,extended,3C02C3D6 //3c02c3a0
+patch=0,EE,2012FAA0,extended,3C024527 //3c0244fa

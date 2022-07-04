@@ -1,0 +1,10 @@
+gametitle=Evangelion - Jo (Japan) SLPS_259.32;1) Game CRC = 0xCBB87BF9
+comment=Disable blur effect test + progressive mode by felixthecat1970
+
+//Exessive Blurr removal Test
+patch=0,EE,20297A48,extended,340F0000
+
+//Progressive test
+patch=0,EE,2032D56C,extended,3C050000
+patch=0,EE,2032D574,extended,3C060050
+patch=0,EE,2032D57C,extended,3C070001

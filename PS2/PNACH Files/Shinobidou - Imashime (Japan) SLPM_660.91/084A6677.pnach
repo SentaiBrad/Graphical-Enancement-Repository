@@ -1,0 +1,25 @@
+gametitle=Shinobidou - Imashime (Japan) SLPM_660.91;1) Game CRC = 0x084A6677
+comment=Enhacement Codes
+
+//Progressive mode + nopi intro logos
+patch=0,EE,202B942C,extended,3C060050
+patch=0,EE,202B9434,extended,3C070001
+patch=0,EE,202B9AC8,extended,34030002
+patch=0,EE,002BAE8C,extended,00
+
+//60 fps shortcut R1+L3=On / L3=Off (performance hit) - 60 fps code by "pcsx480p60"
+patch=1,EE,D063AC89,extended,02
+patch=1,EE,00615118,extended,02
+patch=1,EE,D063AC89,extended,0802
+patch=1,EE,00615118,extended,01
+
+patch=1,EE,D0615018,extended,6390 //workaround hook
+patch=1,EE,00615118,extended,02
+
+//Test codes
+//videos full screen SW - (HW switch to SW (F9) then back to HW (F9 again))
+//patch=1,EE,E004000D,extended,00650906
+//patch=1,EE,106508D0,extended,98F0
+//patch=1,EE,006508DE,extended,15
+//patch=1,EE,106508F8,extended,98F0
+//patch=1,EE,00650906,extended,15

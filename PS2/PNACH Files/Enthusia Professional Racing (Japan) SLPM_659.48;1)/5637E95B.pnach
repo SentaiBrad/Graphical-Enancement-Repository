@@ -1,0 +1,19 @@
+gametitle=Enthusia Professional Racing (Japan) SLPM_659.48;1) Game CRC = 0x5637E95B
+comment=progressive mode enabled + no interleacing + sharp backbuffer by felixthecat1970
+
+//progressive mode + sharp backbuffer + disabled interleacing function
+patch=0,EE,00132434,extended,24050000
+patch=0,EE,00132438,extended,24060050
+
+patch=0,EE,10132450,extended,240701C0
+
+patch=0,EE,202EC270,extended,34039450
+patch=0,EE,2013254C,extended,00000000
+
+patch=1,EE,D1BEFB76,extended,01
+patch=1,EE,004352C0,extended,01
+patch=1,EE,D1BEFB76,extended,00
+patch=1,EE,004352C0,extended,00
+
+//Widescreen hack by No.47 - (widescreen archive)
+patch=1,EE,20388D88,extended,3F400000

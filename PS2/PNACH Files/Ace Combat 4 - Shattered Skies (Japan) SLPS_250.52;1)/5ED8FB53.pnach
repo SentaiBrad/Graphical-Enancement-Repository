@@ -1,0 +1,36 @@
+gametitle=Ace Combat 04 - Shattered Skies (Japan) SLPS_250.52;1) Game CRC = 0x5ED8FB53
+comment=Progressive Func. + disable interleacing Func. + Sharp framebuffer v3 by felixthecat1970
+
+//enable (Round sprite:Full) - Aling Sprite (for realtime cutscenes less vertical black lines) 
+
+//progressive + disable interleacing fc. + sharp framebuffer v3
+patch=0,EE,20104848,extended,34040000 //e. fb
+patch=0,EE,001046DC,extended,24050000 //vmode 1c
+patch=0,EE,001046E0,extended,24060050
+
+patch=0,EE,001050BC,extended,24050000 //vmode 2c
+patch=0,EE,001050B4,extended,24060050
+
+patch=0,EE,202619D4,extended,14A20021 //lk 1
+patch=0,EE,202619D8,extended,24040050 //pback
+patch=0,EE,20261A5C,extended,10A0001A //lk 2
+patch=0,EE,20261A84,extended,34020002 //fix mult
+
+patch=0,EE,201047C4,extended,340701C0 //ex ver+ overr. all
+patch=0,EE,101046F8,extended,240501C0 //def E0 -1
+patch=0,EE,10260D8C,extended,240501C0 //def E0 -1
+//patch=0,EE,2010AA1C,extended,A4670076 //def E0 -1 -ovl bug
+patch=0,EE,00228490,extended,A6060076 //def E0 -1
+
+// FOR USE ONLY HW mode PCSX2 - partial workaround HW Mode by Kojin
+//not fully tested !!it break SW mode airplane!! L3=ON - L3+R1=Off
+patch=1,EE,E002FFFD,extended,0029FF82 //4029FF82 c.hk
+patch=1,EE,101439C0,extended,3C02FFFF //3C0200FF disable downscale alpha channel
+patch=1,EE,2029F3D4,extended,FFFFFFFF //00000000 prgs area 4d left side
+
+patch=1,EE,E002F7FD,extended,0029FF82
+patch=1,EE,101439C0,extended,3C0200FF
+patch=1,EE,2029F3D4,extended,00000000
+
+//widescreen fix aspect (also require screen ratio 16:9 to be enabled in options)
+patch=1,EE,203CF4CC,extended,441CF7AE //by nemesis2000

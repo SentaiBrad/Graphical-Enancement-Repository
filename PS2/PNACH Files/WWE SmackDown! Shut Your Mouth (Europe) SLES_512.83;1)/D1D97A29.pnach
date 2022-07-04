@@ -1,0 +1,5 @@
+gametitle=WWE SmackDown! Shut Your Mouth (Europe) SLES_512.83;1) Game CRC = 0xD1D97A29
+comment=test no-interleacing code by Felixthecat1970
+
+patch=0,EE,2011B658,extended,24050000
+patch=0,EE,2011B680,extended,0000282D

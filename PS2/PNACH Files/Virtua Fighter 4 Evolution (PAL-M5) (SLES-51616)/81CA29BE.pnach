@@ -1,0 +1,12 @@
+gametitle=Virtua Fighter 4 Evolution (PAL-M5) (SLES-51616)
+comment=Disable interlacing hack by ElHecht (thx to felixthecat1970 for JAP codes) then edited by Agrippa
+
+//SCE_GS_FIELD set to 0x0 - read the full frame instead of the half
+patch=1,EE,002FAF74,word,24070000 // 00C0382D
+//replace front buffer addresses with back buffer ones
+patch=1,EE,002FABA4,word,00A32825 // 00A62825
+patch=1,EE,002FAC48,word,00A32825 // 00A62825
+//force the 448 frame height
+patch=1,EE,002FAB14,word,3C01001B // 3C01001F
+//disable the scaling of frame buffer in the PAL mode
+patch=1,EE,002F74A4,word,10000006 // 14620006

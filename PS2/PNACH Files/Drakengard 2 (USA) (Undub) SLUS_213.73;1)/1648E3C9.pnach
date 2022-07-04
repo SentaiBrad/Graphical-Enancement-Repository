@@ -1,0 +1,37 @@
+gametitle=Drakengard 2 (USA) (Undub) SLUS_213.73;1) Game CRC = 0x1648E3C9
+comment=nop interleacing, auto-progressive, sharp framebuffer Enhacement by Felixthecat1970
+
+//progressive + nop interleacing + Sharp Framebuffer
+patch=0,EE,001A0438,extended,24050000 //vm1
+patch=0,EE,001A0444,extended,24070000
+patch=0,EE,201BF760,extended,34070002 //io
+
+//c.mips
+patch=0,EE,200FFFB8,extended,3C1B000F
+patch=0,EE,200FFFBC,extended,377BFFD0
+patch=0,EE,200FFFC0,extended,DC820000
+patch=0,EE,200FFFC4,extended,3C031200
+patch=0,EE,200FFFC8,extended,0806FDFC
+
+//Values
+patch=0,EE,100FFFD8,extended,00009450
+patch=0,EE,200FFFE0,extended,00823134
+patch=0,EE,200FFFE4,extended,001DF4FF
+
+//F1
+patch=0,EE,201BF7EC,extended,0803FFEE //ih
+patch=0,EE,201BF800,extended,DF620008 //dfb2
+patch=0,EE,201BF808,extended,DF620010 //dspl2
+
+//FMV addr framebuffer and HW black lines workaround
+patch=1,EE,D060D070,extended,01 //vh
+patch=1,EE,000FFFD8,extended,50
+patch=1,EE,D060D070,extended,00
+patch=1,EE,000FFFD8,extended,8C
+
+//Widescreen hack by ElHecht (widescreen archive)
+patch=1,EE,204CF458,extended,3FE38E32 // 3Faaaaaa
+patch=1,EE,20560f94,extended,44550000 // 44200000
+
+// black border fix
+patch=0,EE,103323DC,extended,3C010000 // 3c014300

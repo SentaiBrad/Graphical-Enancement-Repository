@@ -1,0 +1,46 @@
+gametitle=Shin Onimusha - Dawn of Dreams (Japan) (En,Ja) (Disc 1/2) SLPM_662.75;1) Game CRC = 0xBD17248E
+comment=Test Ipu Hack (Kozarov) - Enhacement by felixthecat1970
+
+// Set IPU_DATA IVF to Intra
+patch=0,EE,203BB138,extended,3C040020
+
+// Set IPU_CMD to IDEC, and set QSC to 2
+patch=0,EE,203BB14C,extended,3C021002
+
+// Disable print
+patch=0,EE,2010FD08,extended,34190180
+patch=0,EE,2010FD0C,extended,1720FFFF
+patch=0,EE,2010FD10,extended,2739FFFF
+patch=0,EE,2010FD14,extended,03E00008
+patch=0,EE,2010FD18,extended,00000000
+
+//performance workaround test code (unknow register/value/effects bottleneck GS)
+patch=1,EE,E0010E0A,extended,00849C00 //unk
+patch=1,EE,00849C00,extended,00
+
+patch=1,EE,E0010D03,extended,0084A200 //df
+patch=1,EE,0084A200,extended,00
+
+patch=1,EE,E0010D05,extended,0084A000 //df sce
+patch=1,EE,0084A000,extended,00
+
+patch=1,EE,E0010D05,extended,0084A400 //df sce 2
+patch=1,EE,0084A400,extended,00
+
+//no interleacing partial (menu background - videos still shake)
+patch=0,EE,20177F14,extended,00001825 //asasega
+
+//Widescreen hack by nemesis2000 (pnach by Arapapa)
+//val1
+patch=0,EE,2012F8A0,extended,3C033F19
+patch=0,EE,2012F8A8,extended,34649999
+//val2
+patch=0,EE,2012FA78,extended,3C033F19
+patch=0,EE,2012FA80,extended,34639999
+//val3
+patch=0,EE,20167F58,extended,3C023F19
+patch=0,EE,20167F5C,extended,34439999
+//rfix1
+patch=0,EE,2012FAF0,extended,3C02C3D6
+//rfix1
+patch=0,EE,2012F9E0,extended,3C024527

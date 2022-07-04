@@ -1,0 +1,28 @@
+gametitle=Silent Hill Origins (USA) (En,Fr,De,Es,It) SLUS_217.31;1) Game CRC = 0xA8D83239
+comment=Enhacement by felixthecat1970
+
+//black borders's fix (optional) - widescreen archive
+patch=1,EE,00183548,extended,00 //24020001
+
+//Progressive
+patch=0,EE,2029445C,extended,3C050000
+patch=0,EE,20294464,extended,3C060050
+patch=0,EE,2029446C,extended,3C070001
+
+//60 fps test v2 + manual L3=On R3=Off - performance hit
+patch=0,EE,001D7DA4,extended,01 //function val set 60fps
+patch=1,EE,D06CBEC2,extended,FFFD
+patch=1,EE,006B3474,extended,01
+patch=1,EE,D06CBEC2,extended,FFFB
+patch=1,EE,006B3474,extended,02
+
+//60 fps auto enable (first disable code above) - performance hit
+//patch=1,EE,E0010000,extended,006BFA48
+//patch=1,EE,006B3474,extended,01
+
+patch=1,EE,E0010001,extended,006BFA48 //workaround videos
+patch=1,EE,006B3474,extended,02
+
+
+
+

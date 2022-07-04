@@ -1,0 +1,121 @@
+gametitle=Silent Hill 4 - The Room (USA) (En,Ja) SLUS_208.73;1) Game CRC = 0x3919136D
+comment=Enhacement Codes
+
+//Progressive mode + sharp framebuffer + video nopi (felixthecat1970)
+patch=0,EE,2010025C,extended,3C050000
+patch=0,EE,20100264,extended,3C060050
+patch=0,EE,2010026C,extended,3C070001
+patch=0,EE,20100914,extended,34021000
+patch=0,EE,001020cc,extended,00
+
+// 16:9 widescreen archive
+patch=0,EE,20148564,extended,3C013F40 // 00000000 hor fov
+patch=0,EE,20148570,extended,4481f000 // 00000000
+patch=0,EE,201485a0,extended,461ed683 // 4600d647
+patch=0,EE,201485b4,extended,4600d647 // 00000000
+
+// Black borders fix
+patch=0,EE,001A9540,extended,00 // 24030001
+
+// FMV fix
+patch=0,EE,102f7954,extended,0380 // 3c020008 FMV top
+patch=0,EE,202f7998,extended,34021880 // 26220008 FMV bottom
+
+// Inventory fix
+patch=1,EE,20625D54,extended,3F400000 //1
+patch=1,EE,20625E24,extended,3F400000 //2
+patch=1,EE,20625EF4,extended,3F400000 //3
+patch=1,EE,20625FC4,extended,3F400000 //4
+patch=1,EE,20626094,extended,3F400000 //5
+patch=1,EE,20626164,extended,3F400000 //6
+patch=1,EE,20626234,extended,3F400000 //7
+patch=1,EE,20626304,extended,3F400000 //8
+patch=1,EE,206263D4,extended,3F400000 //9
+patch=1,EE,206264A4,extended,3F400000 //10
+
+// Item box fix
+patch=1,EE,20624B54,extended,3F400000 //1
+patch=1,EE,20624C24,extended,3F400000 //2
+patch=1,EE,20624CF4,extended,3F400000 //3
+patch=1,EE,20624DC4,extended,3F400000 //4
+patch=1,EE,20624E94,extended,3F400000 //5
+patch=1,EE,20624F64,extended,3F400000 //6
+patch=1,EE,20625034,extended,3F400000 //7
+
+//60 fps - asasega (speed up)
+//patch=1,EE,2013A2D8,word,24040001 //fps
+//patch=1,EE,20212E04,extended,2402003C //cutscene speed
+//patch=1,EE,202CC948,extended,3C023F00 //player walk,run speed
+//patch=1,EE,2020EB7C,word,3C023F00 //enemy dogs speed, don't know enemies, bosses etc
+
+
+// Enhance Game Sharpness
+//patch=1,EE,0013b330,word,240D0000
+
+// Constant correct Value 0x00000080 Adjustment to disable overall Fog Effect
+//patch=1,EE,002e5398,word,64040080
+
+// Disable Blur-Effect when Ghost hangs on the Wall in Henrys Room
+//patch=1,EE,002a50e8,word,0c04088d
+
+// Disable local Blur-Effects
+//patch=1,EE,0024bef4,word,24020000
+
+// Disable global Blur-Effects
+//patch=1,EE,002c4430,word,24020000
+
+// No black Borders
+patch=1,EE,001a970c,word,24030000
+patch=1,EE,001a972c,word,24030000
+
+// No Body Shadow of Characters and Ghosts on the Ground
+// [Removes also the moving Shadow of the Rotating Prison Tower in the Cells]
+//patch=1,EE,00207964,word,64030000
+
+// Disable Beam of Light
+//patch=1,EE,0022b808,word,24030000
+
+// Disable Noise Filter, Film Tear Effects
+// and Blur Cones
+//patch=1,EE,002485e0,word,03E00008
+//patch=1,EE,002485e4,word,00000000
+//patch=1,EE,00273210,word,03E00008
+//patch=1,EE,00273214,word,00000000
+
+// Disable World-, Cutscene-, Rooms- and
+// Outside World of Window Renderer
+//patch=1,EE,001cd1b8,word,ac201f00
+
+// Create clean Window for Outlook
+//patch=1,EE,002196bc,word,24100000
+
+// Enhance Characters and Ghosts real Body Light,
+// constant Adjust Characters In-Depth Filter
+// and disable their additional true Colours
+patch=1,EE,00138eb8,word,3c014348
+patch=1,EE,00138ed4,word,46001086
+patch=1,EE,00138ef0,word,46001006
+patch=1,EE,001f3ed0,word,3c064348
+patch=1,EE,001f3ed8,word,44860800
+patch=1,EE,00138edc,word,3c068000
+patch=1,EE,00138ee4,word,44860800
+patch=1,EE,001f3ed4,word,3c078000
+patch=1,EE,001f3ee8,word,44870000
+patch=1,EE,0014dee0,word,3C023FA0
+patch=1,EE,0014dee4,word,34420000
+patch=1,EE,0014dee8,word,3C050043
+patch=1,EE,0014deec,word,24A5FC60
+patch=1,EE,0014def0,word,ACA20000
+patch=1,EE,0014def4,word,ACA20004
+patch=1,EE,0014def8,word,3C033F80
+patch=1,EE,0014defc,word,ACA20008
+patch=1,EE,0014df00,word,03E00008
+patch=1,EE,0014df04,word,ACA2000C
+patch=1,EE,00155BF8,word,3C053E80
+patch=1,EE,00155BFC,word,34A50000
+patch=1,EE,00155C00,word,44850000
+patch=1,EE,00155C04,word,E4600000
+patch=1,EE,00155C08,word,E4600004
+patch=1,EE,00155C10,word,E4600008
+patch=1,EE,0010448c,word,7e200000
+patch=1,EE,0014cbb0,word,7ca00000

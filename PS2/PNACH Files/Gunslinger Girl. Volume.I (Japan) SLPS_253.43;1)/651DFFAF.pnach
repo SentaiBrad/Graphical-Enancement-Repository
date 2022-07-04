@@ -1,0 +1,14 @@
+gametitle=Gunslinger Girl. Volume.I (Japan) SLPS_253.43;1) Game CRC = 0x651DFFAF
+comment=test codes by felixthecat1970
+
+//in HW mode "Enable HW hacks" > "Preload Frame Data" for fix black screen
+
+//auto-progressive, sharp framebuffer Enhacement
+patch=0,EE,20100DD8,extended,34030002
+patch=0,EE,20100DEC,extended,340210E0 //db1
+patch=0,EE,20152D4C,extended,340310E0 //db2
+patch=0,EE,20153E40,extended,24050000 //vm
+patch=0,EE,20153E4C,extended,24070001
+
+//Widescreen Hack by synce (widescreen archive)
+patch=1,EE,202DB230,extended,3F400000

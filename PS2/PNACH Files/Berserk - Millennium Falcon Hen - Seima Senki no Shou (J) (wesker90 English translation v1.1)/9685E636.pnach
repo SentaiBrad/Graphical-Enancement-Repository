@@ -1,0 +1,86 @@
+gametitle=Berserk - Millennium Falcon Hen - Seima Senki no Shou (Japan) / (wesker90 translation 1.1) SLPM_656.88;1) Game CRC = 0x9685E636
+comment=Enhancement test v2 By felixthecat1970
+
+//no disable codeblocks (interconected val)
+
+//progressive mode
+patch=0,EE,201928D0,extended,24060050 //vm
+patch=0,EE,20100E60,extended,34030002
+
+patch=1,EE,E0023134,extended,003C4140 //wa. m.
+patch=1,EE,003C411E,extended,1B
+patch=1,EE,003C4146,extended,1B
+
+patch=1,EE,E0021446,extended,003C4138 //wa. intro logos
+patch=1,EE,003C411E,extended,0D
+patch=1,EE,003C4146,extended,0D
+
+//bp. interleacing
+patch=0,EE,20193AE4,extended,08064ED6
+patch=0,EE,20193AE8,extended,00000000
+
+//s. framebuffer v1
+patch=1,EE,E00231B4,extended,003C4140
+patch=1,EE,003C4110,extended,00
+patch=1,EE,003C4138,extended,00
+
+patch=0,EE,20191BD0,extended,34030001 //sk alt fb pw
+
+//Bp. PCSX2 bug gameplay HUD 2d in HW mode
+patch=0,EE,00246490,extended,24050081
+patch=0,EE,0027E2D0,extended,24050081
+patch=0,EE,0027DE30,extended,24050081
+
+//new widescreeen preliminar workaround (org c. demilich)
+patch=1,EE,E0013F4C,extended,003D2C12
+patch=1,EE,103D2C12,extended,3F0C
+
+//60fps Manual L3=On R3=Off (org c. asasega)
+patch=1,EE,D03DC4C2,extended,FFFD
+patch=1,EE,003B408C,extended,01
+patch=1,EE,D03DC4C2,extended,FFFB
+patch=1,EE,003B408C,extended,00
+
+//Notes
+////Sharp Framebuffer and no interleacing (some videos - some places)
+//patch=1,EE,E0050203,extended,003C411A
+//patch=1,EE,20100E60,extended,34030002
+//patch=1,EE,20100E74,extended,34021000
+//patch=1,EE,20191CA0,extended,34231000
+//patch=1,EE,203C411C,extended,001FF9FF //Change 1F value for 1B for some 2d *you will lose in game resolution no recomendded
+//patch=1,EE,203C4144,extended,001FF9FF //Change 1F value for 1B for some 2d *you will lose in game resolution no recomendded
+//
+//patch=1,EE,E0050183,extended,003C411A
+//patch=1,EE,20100E60,extended,DE030008
+//patch=1,EE,20100E74,extended,DE020010
+//patch=1,EE,20191CA0,extended,FC230090
+//patch=1,EE,203C411C,extended,001BF9FF
+//patch=1,EE,203C4144,extended,001BF9FF
+//
+//patch=1,EE,20101CA4,extended,64420000
+//patch=1,EE,20101F0C,extended,64420000
+//write 80 
+//write 80 loading scrn //003F7450 with sdtv
+//01D944B0 wr 100 - 80
+//00246478 link 80 func
+//0x80 0027E2D0 unk maybe v
+//booss 0027DE30 0x80
+//widescreen (widescreen archive) not notable?
+//patch=1,EE,20239AAC,extended,3C033F19 //3c033f4c
+//patch=1,EE,20239AB4,extended,3463999A //3463cccd
+////patch=1,EE,003C4108,extended,01
+////patch=1,EE,003C4130,extended,01
+//disable unk fc
+//patch=0,EE,201B21B0,extended,03E00008
+//patch=0,EE,201B21B4,extended,00000000
+//wa 80wr - menu ok HW mode
+//patch=1,EE,E0010080,extended,003F7410
+//patch=1,EE,103F7410,extended,0000
+//patch=1,EE,E0010080,extended,01D944B0
+//patch=1,EE,11D944B0,extended,0000
+//patch=0,EE,00191C90,extended,24630000 //40
+//patch=0,EE,20191C9C,extended,34031000 //wr when using alt fb
+//60 fps write b value 00246470 
+//patch=1,EE,003C411E,extended,1F
+//patch=1,EE,003C4146,extended,1F
+//patch=0,EE,201928C4,extended,24050000 //wm
