@@ -1,4 +1,4 @@
-# Graphical-CC-Enancement-Repository
+# Graphical-Enancement-Repository
 A repository for cheat codes that enhance the graphical quality for several emulators. Links to Texture Packs and other enhancements will be added over time as well.
 
 Many different emulators have websites, discords, wiki's and places where people post codes that enhance the game that they are playing. Wether that be Draw Distance, Shadow Quality, Widescreen patches that do not distort 2D Elements, or any number of things that do not provide an unfair advantage in that game. 
