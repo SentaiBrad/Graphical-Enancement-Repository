@@ -1,1 +1,0 @@
-https://forums.pcsx2.net/Thread-Quick-pnach-tool
