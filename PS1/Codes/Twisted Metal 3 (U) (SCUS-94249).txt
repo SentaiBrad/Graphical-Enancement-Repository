@@ -1,0 +1,4 @@
+Twisted Metal 3 (U) (SCUS-94249)
+
+//60 FPS
+3003E098 0001

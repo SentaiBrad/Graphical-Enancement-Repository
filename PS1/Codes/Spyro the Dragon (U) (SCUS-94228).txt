@@ -1,0 +1,30 @@
+Spyro the Dragon (U) (SCUS-94228)
+
+
+
+//60 FPS Gameplay
+8001F0C4 0001
+
+//60 FPS Gameplay Alt
+3001F0F8 0001
+
+//60 FPS Cutscenes
+8001D684 0001
+
+//60 FPS Cutscenes Alt
+3001EB20 0001
+
+//60 FPS Gameplay
+8001D61C 0001
+
+//60 FPS Free Dragon
+3001D6B8 0001 
+
+//60 FPS Menu
+3001C61C 0001
+
+//60 FPS Title
+3007DD68 0001
+
+//60 FPS Loading
+3001A3A8 0001

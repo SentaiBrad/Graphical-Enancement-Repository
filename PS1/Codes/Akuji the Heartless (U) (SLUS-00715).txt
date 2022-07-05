@@ -1,0 +1,6 @@
+Akuji the Heartless (U) (SLUS-00715)
+
+
+
+//60 FPS
+80055FBA 2400

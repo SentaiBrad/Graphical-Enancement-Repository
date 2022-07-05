@@ -1,0 +1,4 @@
+Sports Car GT (U) (SLUS-00655)
+
+//60 FPS
+8009F160 0001

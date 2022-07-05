@@ -1,0 +1,307 @@
+Gran Turismo Enhancements by Silent
+
+https://cookieplmonster.github.io/mods/gran-turismo-2/
+
+
+Codes to be applied in RetroArch or DuckStation as Emulator Codes.
+Direct CHD files and more codes are available at Silent's site above.
+
+
+--------------------------------------------------------------------------------------------------------
+
+Gran Turismo 2 (U) (1.1) Simulation and Arcade Discs
+
+//60 FPS
+E01D5634 0002
+301D5634 0001
+A401F888 AEB40008
+//Re-enable tire smoke
+A70168C8 00020000
+//Re-enable sky in the read view mirror
+A7019644 00020000
+00000000 FFFF
+//Re-enable rear view mirror
+A003EC6C 02602021
+A7029548 00020000
+
+--------------------------------------------------------------------------------------------------------
+
+Gran Turismo 2 (U) (1.2) Simulation and Arcade Discs
+
+//60 FPS
+E01D5864 0002
+301D5864 0001
+A401F888 AEB40008
+//Re-enable tire smoke
+A70168C8 00020000
+//Re-enable sky in the read view mirror
+A7019644 00020000
+00000000 FFFF
+//Re-enable rear view mirror
+A003EC74 02602021
+A7029550 00020000
+--------------------------------------------------------------------------------------------------------
+
+Gran Turismo 2 (E) Simulation and Arcade Discs
+
+//50 FPS
+E01D5894 0002
+301D5894 0001
+A401F884 AEB40008
+//Re-enable tire smoke
+A70168C4 00020000
+//Re-enable sky in the read view mirror
+A7019640 00020000
+00000000 FFFF
+//Re-enable rear view mirror
+A003EC50 02602021
+A702954C 00020000
+
+--------------------------------------------------------------------------------------------------------
+
+Gran Turismo 2 (U) (1.1 & 1.2) Simulation and Arcade Discs
+
+//Full detail AI cars (Needs the 8MB of Dev RAM enabled in the settings)
+A401F888 AEB40008
+A7014344 00405112
+A7014346 16A00800
+A7014348 00030001 # Set to 0003 to force the lowest LOD
+00000000 FFFF
+
+--------------------------------------------------------------------------------------------------------
+
+Gran Turismo 2 (U) (1.1) Simulation and Arcade Discs
+
+//Slightly higher draw distance
+A403EC6C 02602021
+A7020420 0004810D
+A7020422 14400800
+00000000 FFFF
+
+--------------------------------------------------------------------------------------------------------
+
+Gran Turismo 2 (U) (1.2) Simulation and Arcade Discs
+
+//Slightly higher draw distance
+A403EC74 02602021
+A7020420 0004810D
+A7020422 14400800
+00000000 FFFF
+
+--------------------------------------------------------------------------------------------------------
+
+Gran Turismo 2 (E) Simulation and Arcade Discs
+
+//Slightly higher draw distance
+A403EC50 02602021
+A702041C 0004810C
+A702041E 14400800
+00000000 FFFF
+
+--------------------------------------------------------------------------------------------------------
+
+Gran Turismo 2 (U) (1.1) Simulation and Arcade Discs
+
+//R3 to switch BGM in race
+//Check for the R3 key
+D702003C 02000400
+51050005 01
+00000000 FFFF
+//If held for over 60 frames, mute
+52900002 0000003C
+51050005 02
+00000000 FFFF
+//If released before 60 frames passed, switch
+52900002 00000000
+52100005 01
+51050005 03
+00000000 FFFF
+00000000 FFFF
+//Obtain the pointers only if we need it
+51050003 00
+A403EC6C 02602021
+52130005 02
+51810003 0002F4EC
+51060304 000002EE
+00000000 FFFF
+00000000 FFFF
+//If the audio pointer is 0, abort (so we don't have to check again)
+52130005 02
+52900003 00000000
+51050005 00
+00000000 FFFF
+00000000 FFFF
+//Switch BGM
+52100005 03
+52150004 05
+51030404 01
+52120004 05
+51050004 00
+00000000 FFFF
+00000000 FFFF
+00000000 FFFF
+//Unmute
+52100005 03
+52100004 FE
+51050004 00
+00000000 FFFF
+00000000 FFFF
+//Mute
+52100005 02
+52150004 05
+51050004 FE
+00000000 FFFF
+00000000 FFFF
+//Apply changes
+52910003 00000000
+51830303 000002EE
+51040403 00
+51050005 00
+00000000 FFFF
+
+--------------------------------------------------------------------------------------------------------
+
+Gran Turismo 2 (U) (1.2) Simulation and Arcade Discs
+
+//R3 to switch BGM in race
+//Check for the R3 key
+D702003C 02000400
+51050005 01
+00000000 FFFF
+//If held for over 60 frames, mute
+52900002 0000003C
+51050005 02
+00000000 FFFF
+//If released before 60 frames passed, switch
+52900002 00000000
+52100005 01
+51050005 03
+00000000 FFFF
+00000000 FFFF
+//Obtain the pointers only if we need it
+51050003 00
+A403EC74 02602021
+52130005 02
+51810003 0002F4F4
+51060304 000002EE
+00000000 FFFF
+00000000 FFFF
+//If the audio pointer is 0, abort (so we don't have to check again)
+52130005 02
+52900003 00000000
+51050005 00
+00000000 FFFF
+00000000 FFFF
+//Switch BGM
+52100005 03
+52150004 05
+51030404 01
+52120004 05
+51050004 00
+00000000 FFFF
+00000000 FFFF
+00000000 FFFF
+//Unmute
+52100005 03
+52100004 FE
+51050004 00
+00000000 FFFF
+00000000 FFFF
+//Mute
+52100005 02
+52150004 05
+51050004 FE
+00000000 FFFF
+00000000 FFFF
+//Apply changes
+52910003 00000000
+51830303 000002EE
+51040403 00
+51050005 00
+00000000 FFFF
+--------------------------------------------------------------------------------------------------------
+
+Gran Turismo 2 (E) Simulation and Arcade Discs
+
+//R3 to switch BGM in race
+//Check for the R3 key
+D702003C 02000400
+51050005 01
+00000000 FFFF
+//If held for over 60 frames, mute
+52900002 0000003C
+51050005 02
+00000000 FFFF
+//If released before 60 frames passed, switch
+52900002 00000000
+52100005 01
+51050005 03
+00000000 FFFF
+00000000 FFFF
+//Obtain the pointers only if we need it
+51050003 00
+A403EC50 02602021
+52130005 02
+51810003 0002F524
+51060304 000002EE
+00000000 FFFF
+00000000 FFFF
+//If the audio pointer is 0, abort (so we don't have to check again)
+52130005 02
+52900003 00000000
+51050005 00
+00000000 FFFF
+00000000 FFFF
+//Switch BGM
+52100005 03
+52150004 05
+51030404 01
+52120004 05
+51050004 00
+00000000 FFFF
+00000000 FFFF
+00000000 FFFF
+//Unmute
+52100005 03
+52100004 FE
+51050004 00
+00000000 FFFF
+00000000 FFFF
+//Mute
+52100005 02
+52150004 05
+51050004 FE
+00000000 FFFF
+00000000 FFFF
+//Apply changes
+52910003 00000000
+51830303 000002EE
+51040403 00
+51050005 00
+00000000 FFFF
+--------------------------------------------------------------------------------------------------------
+
+Gran Turismo 2 (U) (1.1 & 1.2) Simulation and Arcade Discs
+
+This code must be used together with a the "Enable 8MB RAM (Dev Console)" option. This option is only available in some emulators and cores.
+
+//Use 8MB RAM for polygon buffers
+A401F888 AEB40008
+//Codes will be skipped if RAM mirroring is in place (8MB mode disabled)
+D121F88A AEB4
+A7016A6C 000E8020
+D121F88A AEB4
+A7016A70 57000000
+D121F88A AEB4
+A7016A7C 00030007
+D121F88A AEB4
+A7016A78 28210000
+D121F88A AEB4
+A7016A7A 02250000
+D121F88A AEB4
+A7016A88 80000000
+00000000 FFFF
+
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------

@@ -1,0 +1,29 @@
+Driver 2 - Draw Distance & Widescreen Fix
+
+by Soapy and Snoopii
+https://www.youtube.com/watch?v=VI36tXjWWEk
+
+
+//Extend DD
+3003F749 000F
+
+//Extend Car LOD
+300213B1 0055
+
+//Widscreen Frustum Angle Fix
+800AADF0 020F
+
+//Widescreen Fix (required for code above)
+8005AD00 0000
+8005AD02 0000
+8005AD04 0000
+8005AD06 0000
+
+//Demo FOV in final version
+3009C019 0014
+
+//Alt Extend DD
+300AA514 0000
+
+//Alt Extend Car LOD
+300213B1 0055
