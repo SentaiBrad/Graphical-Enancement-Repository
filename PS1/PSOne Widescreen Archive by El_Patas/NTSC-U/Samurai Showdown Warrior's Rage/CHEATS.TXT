@@ -1,9 +1,0 @@
-Widescreen hack by allkhan
-$SAFEMODE
-
-#Samurai Showdown: Warrior's Rage [NTSC-U] (SLUS-01039)
-----------------------------------------------------------------------------------------
-GAMESHARK/ACTION REPLAY CODES
-----------------------------------------------------------------------------------------
-//Widescreen 16:9
-8009ACB8 0C00

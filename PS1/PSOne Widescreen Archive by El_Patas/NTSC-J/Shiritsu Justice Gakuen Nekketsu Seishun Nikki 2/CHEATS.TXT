@@ -1,9 +1,0 @@
-Widescreen hack by allkhan
-$SAFEMODE
-
-#Shiritsu Justice Gakuen: Nekketsu Seishun Nikki 2 [NTSC-J] (SLPS-02120)
-----------------------------------------------------------------------------------------
-GAMESHARK/ACTION REPLAY CODES
-----------------------------------------------------------------------------------------
-//Widescreen 16:9
-801F6120 0C00

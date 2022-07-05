@@ -1,4 +1,0 @@
-Ready 2 Rumble Boxing (U) (SLUS-00857)
-
-//60 FPS
-80083C08 0001

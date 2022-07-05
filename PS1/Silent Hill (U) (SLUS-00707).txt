@@ -1,9 +1,0 @@
-Silent Hill (U) (SLUS-00707)
-
-Damage values may be increased 2x (Needs testing to confirm). Text animated at 2x speed
-
-//60 FPS
-800A8FF0 00000001
-
-//60 FPS Alt
-300A8FF0 0001

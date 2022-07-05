@@ -1,4 +1,0 @@
-Stuart Little 2 (U) (SCUS-94669)
-
-//60 FPS
-3001B170 0001

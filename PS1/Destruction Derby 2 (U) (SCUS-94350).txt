@@ -1,8 +1,0 @@
-Destruction Derby 2 (U) (SCUS-94350)
-
-
-
-//60 FPS
-"80050FB4 0001
-80050FB6 2C42
-"

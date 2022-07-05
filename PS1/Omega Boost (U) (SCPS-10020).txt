@@ -1,4 +1,0 @@
-Omega Boost (U) (SCPS-10020)
-
-//60 FPS
-80097BCC 01

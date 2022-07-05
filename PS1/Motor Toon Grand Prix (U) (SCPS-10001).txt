@@ -1,4 +1,0 @@
-Motor Toon Grand Prix (U) (SCPS-10001)
-
-//60 FPS
-8005C508 0001

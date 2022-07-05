@@ -1,5 +1,0 @@
-Colin McRae Rally (U) (SCUS-94474)
-
-//60 FPS
-E00C680C 0002
-300C680C 0001

@@ -1,9 +1,0 @@
-Widescreen hack by Esppiral
-$SAFEMODE
-
-#Kingley's Adventure [PAL] (SCES-01659)
-----------------------------------------------------------------------------------------
-GAMESHARK/ACTION REPLAY CODES
-----------------------------------------------------------------------------------------
-//Widescreen 16:9
-800E6FBC 0F00

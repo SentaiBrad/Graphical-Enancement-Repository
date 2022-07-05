@@ -1,4 +1,0 @@
-Medal of Honor (U) (SLUS-00974)
-
-//60FPS
-80090C1E 2400

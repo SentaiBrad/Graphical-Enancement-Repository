@@ -1,4 +1,0 @@
-Vanishing Point (U) (SLUS-01109)
-
-//60 FPS
-8002BB40 0001

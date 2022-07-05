@@ -1,9 +1,0 @@
-Widescreen hack by allkhan
-$SAFEMODE
-
-#Ranma 1-2: Battle Renaissance [NTSC-J] (SLPS-00522)
-----------------------------------------------------------------------------------------
-GAMESHARK/ACTION REPLAY CODES
-----------------------------------------------------------------------------------------
-//Widescreen 16:9
-800C2894 0C00
