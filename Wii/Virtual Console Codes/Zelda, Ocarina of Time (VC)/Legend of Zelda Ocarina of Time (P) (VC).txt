@@ -1,0 +1,3 @@
+$16:9 Widescreen + No Culling + Extended Draw Distance (AR Code) (NACP01)
+04E992E4 10000023
+04F06A18 3C073FE3
