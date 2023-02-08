@@ -11,4 +11,4 @@ This will be a community effort. If you create or find codes online that will be
 
 When submitting, if you are not the creator of the codes, please link and credit the creator.
 
-I test codes primarily in RetroArch on a Windows PC, and Android on an AYN Odin Pro. There are exceptions with this in the case of PS2 with PCSX2, and Gamecube / Wii with Dolphin.
+I test codes primarily in RetroArch on a Windows PC, Android on an AYN Odin Pro, and on the Steam Deck. There are exceptions with this in the case of PS2 with PCSX2, and Gamecube / Wii with Dolphin.
